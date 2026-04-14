@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hksyu-super-schedule
+  labels:
+    app: hksyu-super-schedule
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hksyu-super-schedule
+  template:
+    metadata:
+      labels:
+        app: hksyu-super-schedule
+    spec:
+      containers:
+        - name: hksyu-super-schedule
+          image: your-registry/hksyu-super-schedule:latest
+          ports:
+            - containerPort: 8080
+          resources:
+            requests:
+              cpu: 50m
+              memory: 32Mi
+            limits:
+              cpu: 200m
+              memory: 64Mi
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 3
+            periodSeconds: 10

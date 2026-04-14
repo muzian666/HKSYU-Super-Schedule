@@ -30,3 +30,32 @@
   var observer = new MutationObserver(function () { setTimeout(processLinks, 100); });
   observer.observe(document.body, { childList: true, subtree: true });
 })();
+
+// SD Tooltip - positioned at body level to avoid table overflow clipping
+(function () {
+  var tip = document.createElement('div');
+  tip.id = 'sd-tooltip-box';
+  document.body.appendChild(tip);
+
+  document.addEventListener('mouseover', function (e) {
+    var el = e.target.closest('.sd-tip');
+    if (!el) return;
+    var content = el.querySelector('.sd-tip-content');
+    if (!content) return;
+    tip.innerHTML = content.innerHTML;
+    tip.style.display = 'block';
+
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - tipRect.width - 8;
+    tip.style.left = left + 'px';
+    tip.style.top = (rect.top - tipRect.height - 8) + 'px';
+  });
+
+  document.addEventListener('mouseout', function (e) {
+    var el = e.target.closest('.sd-tip');
+    if (el) tip.style.display = 'none';
+  });
+})();

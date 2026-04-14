@@ -382,10 +382,12 @@ body {
 .md-typeset table {
   display: table;
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
   border-spacing: 0;
-  overflow: auto;
+  overflow: hidden;
   font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid var(--gb-table-border);
 }
 
 .md-typeset table th {
@@ -665,25 +667,70 @@ mark.md-search-result__highlight {
 /* Review card */
 .review-card {
   border: 1px solid var(--gb-card-border);
-  border-radius: 0;
-  padding: 16px;
-  margin: 16px 0;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 20px 0;
   background-color: var(--gb-card-bg);
   box-shadow: 0 1px 3px var(--gb-card-shadow);
 }
 
-.review-meta {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  font-size: 14px;
+.review-meta-table {
+  width: auto;
+  border: none;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.review-meta-table td {
+  border: none;
+  padding: 2px 12px 2px 0;
+  background: transparent !important;
+}
+
+.review-meta-table .meta-label {
   color: #8e908c;
-  margin-bottom: 8px;
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 .review-content {
-  margin-top: 8px;
-  line-height: 1.7;
+  margin-top: 4px;
+  padding-top: 12px;
+  border-top: 1px solid var(--gb-card-border);
+  line-height: 1.8;
+  color: var(--gb-content-text);
+}
+
+/* SD Tooltip */
+.sd-tip {
+  cursor: help;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+
+.sd-tip-content {
+  display: none;
+}
+
+#sd-tooltip-box {
+  display: none;
+  position: fixed;
+  background: var(--gb-content-bg);
+  border: 1px solid var(--gb-card-border);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px var(--gb-card-shadow);
+  padding: 12px 16px;
+  font-size: 13px;
+  line-height: 1.8;
+  white-space: nowrap;
+  z-index: 9999;
+  color: var(--gb-content-text);
+  pointer-events: none;
+}
+
+#sd-tooltip-box strong {
+  color: var(--gb-sidebar-active);
+  font-weight: 600;
 }
 
 /* Star rating */

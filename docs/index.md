@@ -14,7 +14,8 @@
 
 **<span style="color: #ff0000;">考试座位信息表（开考前一小时更新）</span>**
 
-<iframe style="border: 1px solid #000;" src="https://apps.hksyu.edu/examtmtbl/" name="HKSYU 考试时间表" width="100%" height="600" scrolling="auto"></iframe>
+<iframe id="exam-iframe" style="border: 1px solid #000; transition: height 0.3s ease;" src="https://apps.hksyu.edu/examtmtbl/" name="HKSYU 考试时间表" width="100%" height="300" scrolling="auto"></iframe>
+<button onclick="(function(){var f=document.getElementById('exam-iframe');var b=document.getElementById('exam-btn');if(f.height==300){f.height=600;b.textContent='收起';}else{f.height=300;b.textContent='展开更多';}})()" id="exam-btn" style="display:block;margin:8px auto 0;padding:6px 20px;border:1px solid var(--gb-card-border,#e0e0e0);border-radius:4px;background:var(--gb-card-bg,#f8f8f8);color:var(--gb-content-text,#333);cursor:pointer;font-size:13px;">展开更多</button>
 
 ## 近期更新
 
