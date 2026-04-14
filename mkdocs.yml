@@ -1,0 +1,86 @@
+site_name: 大小姐的杂货铺
+site_description: 香港树仁大学课程评价平台
+site_url: https://www.pass3exceed4.com
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  font: false
+  logo: assets/images/favicon.png
+  favicon: assets/images/favicon.png
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+        - ja
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - 欢迎: index.md
+  - 🔗 外部链接:
+    - HKSYU 官网: https://www.hksyu.edu/tc/home
+    - 考试时间表: https://apps.hksyu.edu/examtmtbl/
+    - HKSYU Moodle: https://moodle.hksyu.edu/login/index.php
+    - HKSYU Websims: https://websims.hksyu.edu:8124/
+    - HKSYU 抢课平台: https://sims.hksyu.edu/course-selection/
+  - BUS - 商学系: bus/index.md
+  - CHI - 中文系: chi/index.md
+  - COMP - 计算机系: comp/index.md
+  - ECON - 经济系: econ/index.md
+  - ENG - 英文系: eng/index.md
+  - FIN - 金融系: fin/index.md
+  - GE - 通识课:
+    - GEA - 通识课A类: ge/gea/index.md
+    - GEB - 通识课B类: ge/geb/index.md
+    - GEC - 通识课C类: ge/gec/index.md
+    - GED - 通识课D类: ge/ged/index.md
+  - HIST - 历史系: hist/index.md
+  - JOUR - 新传系: jour/index.md
+  - LAW - 法律系: law/index.md
+  - MDIT - 媒体设计与虚拟现实科技: mdit/index.md
+  - PE - 体育: pe/index.md
+  - PHIL - 哲学系: phil/index.md
+  - PRA - 公共关系与广告: pra/index.md
+  - SOC - 社会系: soc/index.md

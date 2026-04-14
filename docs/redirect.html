@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>即将离开 超级课程表</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+      max-width: 520px;
+      width: 100%;
+      padding: 40px;
+      text-align: center;
+    }
+    .icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #1a1a1a;
+    }
+    p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .url {
+      background: #f8f8f8;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      padding: 10px 16px;
+      font-size: 13px;
+      color: #4183c4;
+      word-break: break-all;
+      margin-bottom: 24px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 32px;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.2s;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary {
+      background: #704214;
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: #8a5520;
+    }
+    .btn-secondary {
+      background: #f0f0f0;
+      color: #666;
+      margin-left: 12px;
+    }
+    .btn-secondary:hover {
+      background: #e0e0e0;
+    }
+    .warning {
+      font-size: 12px;
+      color: #999;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">&#x1F517;</div>
+    <h1>即将离开 超级课程表</h1>
+    <p>你即将访问外部链接，请注意信息安全。该链接不在我们的控制范围内，请谨慎操作。</p>
+    <div class="url" id="target-url"></div>
+    <div>
+      <a class="btn btn-primary" id="confirm-btn">继续访问</a>
+      <a class="btn btn-secondary" onclick="window.close(); history.back();">返回</a>
+    </div>
+    <div class="warning">请注意：外部链接可能存在安全风险，请确认链接地址无误后再访问。</div>
+  </div>
+  <script>
+    var params = new URLSearchParams(window.location.search);
+    var target = params.get('url');
+    if (target) {
+      document.getElementById('target-url').textContent = target;
+      var btn = document.getElementById('confirm-btn');
+      btn.href = target;
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.href = target;
+      });
+    } else {
+      document.getElementById('target-url').textContent = '未提供链接地址';
+      document.getElementById('confirm-btn').style.display = 'none';
+    }
+  </script>
+</body>
+</html>

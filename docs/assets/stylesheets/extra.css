@@ -1,0 +1,772 @@
+/* ========================================
+   GitBook (wordbook) Style for MkDocs Material
+   精确还原 pass3exceed4.com 的配色和字体
+   ======================================== */
+
+/* --- Light Mode (Default GitBook) --- */
+:root {
+  /* Sidebar - transparent to match content bg */
+  --gb-sidebar-bg: transparent;
+  --gb-sidebar-text: #333333;
+  --gb-sidebar-link: #364149;
+  --gb-sidebar-active: #704214;
+  --gb-sidebar-header: #939da3;
+  --gb-sidebar-search-bg: transparent;
+  --gb-sidebar-divider: #e7e7e7;
+
+  /* Content - white bg, dark text (default GitBook) */
+  --gb-content-bg: #ffffff;
+  --gb-content-text: #333333;
+  --gb-content-heading: #1a1a1a;
+  --gb-link-color: #4183c4;
+  --gb-link-hover-color: #4183c4;
+
+  /* Tables */
+  --gb-table-border: #ddd;
+  --gb-table-row: #ffffff;
+  --gb-table-row-alt: #f8f8f8;
+
+  /* Code */
+  --gb-code-bg: #f7f7f7;
+  --gb-code-border: #e0e0e0;
+  --gb-code-text: inherit;
+
+  /* Blockquote */
+  --gb-blockquote-border: #e5e5e5;
+  --gb-blockquote-text: #858585;
+
+  /* HR */
+  --gb-hr: #e7e7e7;
+
+  /* Header */
+  --gb-header-bg: #ffffff;
+  --gb-header-text: #7e888b;
+  --gb-header-title: #333333;
+
+  /* Star */
+  --gb-star: #e8a735;
+
+  /* Review card */
+  --gb-card-bg: #f8f8f8;
+  --gb-card-border: #e0e0e0;
+  --gb-card-shadow: rgba(0, 0, 0, 0.06);
+}
+
+/* --- Theme 2: Dark (Dark Mode) --- */
+[data-md-color-scheme="slate"] {
+  --gb-sidebar-bg: transparent;
+  --gb-sidebar-text: #bdcadb;
+  --gb-sidebar-link: #bdcadb;
+  --gb-sidebar-active: #3eb1d0;
+  --gb-sidebar-header: #788da3;
+  --gb-sidebar-search-bg: transparent;
+  --gb-sidebar-divider: #3a3f54;
+
+  --gb-content-bg: #1c1f2b;
+  --gb-content-text: #bdcadb;
+  --gb-content-heading: #fffffa;
+  --gb-link-color: #3eb1d0;
+  --gb-link-hover-color: #5cc8e0;
+
+  --gb-table-border: #3b3f54;
+  --gb-table-row: #2d3143;
+  --gb-table-row-alt: #35394b;
+
+  --gb-code-bg: #2d3143;
+  --gb-code-border: #2d3143;
+  --gb-code-text: #9dbed8;
+
+  --gb-blockquote-border: #373b4e;
+  --gb-blockquote-text: inherit;
+
+  --gb-hr: #373b4e;
+
+  --gb-header-bg: transparent;
+  --gb-header-text: #7e888b;
+  --gb-header-title: #bdcadb;
+
+  --gb-star: #f0c040;
+
+  --gb-card-bg: #252838;
+  --gb-card-border: #3b3f54;
+  --gb-card-shadow: rgba(0, 0, 0, 0.2);
+}
+
+/* ===================================
+   Global / Body
+   Override Material's CSS custom properties for header/footer
+   =================================== */
+:root {
+  --md-default-bg-color: #ffffff;
+  --md-primary-fg-color: #ffffff;
+  --md-primary-bg-color: #333333;
+  --md-footer-bg-color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #1c1f2b;
+  --md-primary-fg-color: #1c1f2b;
+  --md-primary-bg-color: #bdcadb;
+  --md-footer-bg-color: #1c1f2b;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px !important;
+  letter-spacing: 0.2px;
+}
+
+/* ===================================
+   Sidebar (Left Navigation)
+   GitBook dark sidebar #111111
+   =================================== */
+.md-sidebar--primary {
+  background-color: var(--gb-sidebar-bg) !important;
+  border-right: none;
+  box-shadow: none !important;
+}
+
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  padding: 0;
+}
+
+/* Hide sidebar site title "大小姐的杂货铺" */
+.md-sidebar--primary .md-nav--primary > label.md-nav__title {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+}
+
+/* Remove top spacing in sidebar */
+.md-sidebar--primary .md-nav--primary {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.md-sidebar--primary .md-nav--primary > .md-nav__list {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Nav items - GitBook flat style */
+.md-sidebar--primary .md-nav__link {
+  color: var(--gb-sidebar-link) !important;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 15px;
+  border-radius: 0;
+  transition: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.md-sidebar--primary .md-nav__link:hover {
+  color: var(--gb-sidebar-active) !important;
+  background: transparent;
+  text-decoration: underline;
+}
+
+/* Active nav item */
+.md-sidebar--primary .md-nav__link--active {
+  color: var(--gb-sidebar-active) !important;
+  font-weight: 400;
+  background: transparent;
+  border-left: none;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+/* Nested nav items (course list under department) */
+.md-sidebar--primary .md-nav--secondary {
+  background-color: transparent !important;
+}
+
+.md-sidebar--primary .md-nav--secondary .md-nav__link {
+  font-size: 14px;
+  padding-left: 35px;
+}
+
+.md-sidebar--primary .md-nav--secondary .md-nav__link--active {
+  padding-left: 35px;
+}
+
+/* Nav section headers (external links label etc) */
+.md-sidebar--primary .md-nav__item--section > .md-nav__link {
+  color: var(--gb-sidebar-header) !important;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 20px 15px 10px;
+}
+
+/* Expand/collapse toggles */
+.md-sidebar--primary .md-nav__icon {
+  color: var(--gb-sidebar-text) !important;
+}
+
+/* ===================================
+   Header / Top Bar
+   Same bg as content, with subtle shadow
+   =================================== */
+.md-header {
+  background-color: var(--gb-content-bg) !important;
+  color: var(--gb-header-text) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1) !important;
+  border-bottom: none;
+  height: 50px;
+}
+
+/* Force header inner elements to use same bg */
+.md-header__inner {
+  background-color: var(--gb-content-bg) !important;
+}
+
+.md-header[data-md-state="shadow"] {
+  background-color: var(--gb-content-bg) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12) !important;
+}
+
+.md-header__title {
+  font-size: 20px;
+  font-weight: 200;
+  color: var(--gb-header-title) !important;
+  opacity: 1;
+}
+
+.md-header__button {
+  color: var(--gb-header-text) !important;
+}
+
+/* Logo in header - larger size */
+.md-header__button.md-logo img {
+  height: 24px !important;
+  width: auto !important;
+}
+
+/* Tighten gap between logo and site title */
+.md-header__button.md-logo {
+  margin-right: 4px !important;
+}
+
+.md-header__button:hover {
+  color: var(--gb-sidebar-active) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: var(--gb-content-bg) !important;
+}
+
+/* Hide the tabs bar */
+.md-tabs {
+  display: none !important;
+}
+
+/* ===================================
+   Content Area
+   GitBook warm paper background
+   =================================== */
+.md-main {
+  background-color: var(--gb-content-bg);
+  padding-top: 0 !important;
+}
+
+/* Tighten gap between header and content */
+.md-sidebar {
+  padding-top: 0 !important;
+}
+
+.md-content__inner {
+  padding-top: 1px !important;
+}
+
+.md-content {
+  background-color: var(--gb-content-bg) !important;
+}
+
+.md-content__inner {
+  max-width: none;
+  margin: 0;
+  padding: 20px 24px 40px;
+}
+
+/* ===================================
+   Typography - match GitBook markdown-section
+   =================================== */
+.md-typeset {
+  color: var(--gb-content-text);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.md-typeset h1 {
+  color: var(--gb-content-heading);
+  font-size: 2em;
+  font-weight: 700;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 1.275em;
+  margin-bottom: 0.85em;
+}
+
+.md-typeset h2 {
+  color: var(--gb-content-heading);
+  font-size: 1.75em;
+  font-weight: 700;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 1.275em;
+  margin-bottom: 0.85em;
+}
+
+.md-typeset h3 {
+  color: var(--gb-content-heading);
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 1.275em;
+  margin-bottom: 0.85em;
+}
+
+.md-typeset h4 {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.md-typeset p {
+  margin-top: 0;
+  margin-bottom: 0.85em;
+}
+
+/* ===================================
+   Links
+   GitBook #4183c4 blue
+   =================================== */
+.md-typeset a {
+  color: var(--gb-link-color);
+  text-decoration: none;
+  background: transparent;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+.md-typeset a:focus {
+  outline: thin dotted;
+}
+
+/* ===================================
+   Horizontal Rules
+   GitBook thick #e7e7e7 lines
+   =================================== */
+.md-typeset hr {
+  height: 4px;
+  padding: 0;
+  margin: 1.7em 0;
+  overflow: hidden;
+  background-color: var(--gb-hr);
+  border: none;
+}
+
+/* ===================================
+   Tables
+   GitBook warm-toned tables
+   =================================== */
+.md-typeset table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  overflow: auto;
+  font-size: 14px;
+}
+
+.md-typeset table th {
+  font-weight: 700;
+  padding: 6px 13px;
+  border: 1px solid var(--gb-table-border);
+}
+
+.md-typeset table td {
+  padding: 6px 13px;
+  border: 1px solid var(--gb-table-border);
+}
+
+.md-typeset table tr {
+  background-color: var(--gb-table-row);
+  border-top: 1px solid var(--gb-table-border);
+}
+
+.md-typeset table tr:nth-child(2n) {
+  background-color: var(--gb-table-row-alt);
+}
+
+/* ===================================
+   Blockquotes
+   GitBook style: left border, muted text
+   =================================== */
+.md-typeset blockquote {
+  margin: 0 0 0.85em;
+  padding: 0 15px;
+  color: var(--gb-blockquote-text);
+  border-left: 4px solid var(--gb-blockquote-border);
+  font-style: normal;
+  background: transparent;
+}
+
+/* ===================================
+   Code
+   GitBook warm code blocks
+   =================================== */
+.md-typeset code {
+  padding: 0.2em;
+  margin: 0;
+  font-size: 0.85em;
+  background-color: var(--gb-code-bg);
+  border-radius: 3px;
+  color: var(--gb-code-text);
+}
+
+.md-typeset pre {
+  background: var(--gb-code-bg);
+  border: 1px solid var(--gb-code-border);
+  border-radius: 3px;
+}
+
+.md-typeset pre code {
+  background: transparent;
+  color: var(--gb-code-text);
+}
+
+/* ===================================
+   Admonitions (Material warning/info boxes)
+   Tone them down to match GitBook
+   =================================== */
+.md-typeset .admonition,
+.md-typeset details {
+  background-color: var(--gb-table-row);
+  border-left: 4px solid var(--gb-blockquote-border);
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: transparent !important;
+  color: var(--gb-content-text);
+  font-weight: 700;
+}
+
+.md-typeset .admonition.info {
+  border-left-color: var(--gb-link-color);
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: #e8a735;
+}
+
+/* ===================================
+   Search
+   =================================== */
+
+/* Search input in sidebar - no background */
+.md-search__input {
+  background-color: transparent !important;
+  border: none;
+  color: var(--gb-content-text) !important;
+  font-size: 14px;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  -webkit-text-fill-color: var(--gb-content-text) !important;
+  caret-color: var(--gb-content-text) !important;
+}
+
+.md-search__input:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  text-shadow: none !important;
+}
+
+.md-search__input::placeholder {
+  color: var(--gb-content-text) !important;
+  opacity: 0.4;
+  text-shadow: none !important;
+}
+
+.md-search__icon {
+  color: var(--gb-sidebar-text) !important;
+}
+
+/* Search overlay backdrop */
+.md-search__overlay {
+  background-color: var(--gb-content-bg) !important;
+  opacity: 0.95 !important;
+}
+
+/* Search panel inner */
+.md-search__inner {
+  background-color: var(--gb-content-bg) !important;
+  color: var(--gb-content-text) !important;
+}
+
+/* Search form */
+.md-search__form {
+  background-color: var(--gb-content-bg) !important;
+  color: var(--gb-content-text) !important;
+}
+
+/* Search output wrapper */
+.md-search__output {
+  background-color: var(--gb-content-bg) !important;
+}
+
+.md-search__scrollwrap {
+  background-color: var(--gb-content-bg) !important;
+}
+
+/* Search result container */
+.md-search-result {
+  background-color: var(--gb-content-bg) !important;
+  color: var(--gb-content-text) !important;
+}
+
+/* "Type to search" / result count meta text */
+.md-search-result__meta {
+  color: var(--gb-content-text) !important;
+  background-color: transparent !important;
+}
+
+/* Search result list */
+.md-search-result__list {
+  background-color: var(--gb-content-bg) !important;
+}
+
+/* Individual search result item */
+.md-search-result__item {
+  background-color: transparent !important;
+  color: var(--gb-content-text) !important;
+}
+
+/* Search result article (link + teaser) */
+.md-search-result__article {
+  background-color: transparent !important;
+  color: var(--gb-content-text) !important;
+}
+
+.md-search-result__article:hover {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Search result link */
+.md-search-result__link {
+  color: var(--gb-link-color) !important;
+}
+
+.md-search-result__link:hover {
+  color: var(--gb-sidebar-active) !important;
+}
+
+/* Search result article title */
+.md-search-result__title {
+  color: var(--gb-content-text) !important;
+}
+
+/* Search result teaser/snippet text */
+.md-search-result__teaser {
+  color: var(--gb-content-text) !important;
+  opacity: 0.7;
+}
+
+/* Search highlighted terms */
+.md-search-result mark,
+.md-search-result__teaser mark,
+.md-search-result__title mark,
+mark.md-search-result__highlight {
+  color: var(--gb-sidebar-active) !important;
+  background-color: transparent !important;
+  font-weight: 700;
+}
+
+/* "No results found" text */
+.md-search-result__message {
+  color: var(--gb-content-text) !important;
+}
+
+/* Search options nav (clear button etc) */
+.md-search__options {
+  color: var(--gb-content-text) !important;
+}
+
+.md-search__options .md-icon {
+  color: var(--gb-content-text) !important;
+}
+
+/* Search suggest */
+.md-search__suggest {
+  color: var(--gb-content-text) !important;
+  opacity: 0.5;
+}
+
+/* ===================================
+   TOC Sidebar (Right) - hidden
+   =================================== */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+/* ===================================
+   Footer - completely hidden
+   =================================== */
+.md-footer,
+.md-footer-meta,
+.md-footer__inner,
+.md-footer__link {
+  display: none !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ===================================
+   Custom utility classes
+   =================================== */
+
+/* Update timestamp */
+.gb-update-time {
+  color: #8e908c;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Notice box */
+.gb-notice {
+  background-color: var(--gb-table-row);
+  border-left: 4px solid var(--gb-blockquote-border);
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-radius: 0;
+}
+
+.gb-notice p {
+  margin: 0;
+}
+
+/* Review card */
+.review-card {
+  border: 1px solid var(--gb-card-border);
+  border-radius: 0;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: var(--gb-card-bg);
+  box-shadow: 0 1px 3px var(--gb-card-shadow);
+}
+
+.review-meta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #8e908c;
+  margin-bottom: 8px;
+}
+
+.review-content {
+  margin-top: 8px;
+  line-height: 1.7;
+}
+
+/* Star rating */
+.star-rating,
+.score-stars {
+  color: var(--gb-star);
+}
+
+.score-display {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* ===================================
+   Back-to-top button
+   =================================== */
+.md-top {
+  background-color: var(--gb-content-bg) !important;
+  color: var(--gb-content-text) !important;
+  border: 1px solid var(--gb-card-border);
+  box-shadow: 0 2px 4px var(--gb-card-shadow);
+}
+
+/* ===================================
+   Responsive
+   =================================== */
+@media screen and (max-width: 76.1875em) {
+  .md-content__inner {
+    padding: 20px 20px 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px !important;
+  }
+
+  .md-typeset h1 { font-size: 1.6em; }
+  .md-typeset h2 { font-size: 1.4em; }
+  .md-typeset h3 { font-size: 1.2em; }
+
+  .md-content__inner {
+    padding: 15px 12px 30px;
+  }
+}
+
+/* ===================================
+   Scroll / Animations
+   =================================== */
+html {
+  scroll-behavior: smooth;
+}
+
+.md-content__inner {
+  animation: gbFadeIn 0.15s ease-in;
+}
+
+@keyframes gbFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ===================================
+   Print
+   =================================== */
+@media print {
+  .md-sidebar,
+  .md-header,
+  .md-footer,
+  .md-top {
+    display: none !important;
+  }
+
+  .md-content__inner {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
