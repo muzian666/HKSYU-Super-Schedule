@@ -23,7 +23,7 @@
 
 ## 小程序版本
 
-<img src="https://www.pass3exceed4.com/wp-content/uploads/2023/07/1689815466-gh_647744638522_1280.jpg" alt="小程序二维码" width="200" />
+<img src="assets/images/gh_647744638522_1280.jpg" alt="小程序二维码" width="200" />
 
 ---
 

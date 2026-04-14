@@ -29,8 +29,8 @@ theme:
         icon: material/weather-sunny
         name: 切换到浅色模式
   font: false
-  logo: assets/images/favicon.png
-  favicon: assets/images/favicon.png
+  logo: assets/images/basicprofile.jpeg
+  favicon: assets/images/basicprofile.jpeg
 
 extra_css:
   - assets/stylesheets/extra.css
