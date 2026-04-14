@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: hksyu-super-schedule
-          image: your-registry/hksyu-super-schedule:latest
+          image: hksyu-super-schedule:latest
+          imagePullPolicy: Never
           ports:
             - containerPort: 8080
           resources:

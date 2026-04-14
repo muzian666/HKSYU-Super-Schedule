@@ -3,15 +3,27 @@ kind: Ingress
 metadata:
   name: hksyu-super-schedule
   annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
 spec:
   ingressClassName: nginx
   tls:
     - hosts:
         - pass3exceed4.com
+        - www.pass3exceed4.com
       secretName: pass3exceed4-tls
   rules:
     - host: pass3exceed4.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: hksyu-super-schedule
+                port:
+                  number: 8080
+    - host: www.pass3exceed4.com
       http:
         paths:
           - path: /
