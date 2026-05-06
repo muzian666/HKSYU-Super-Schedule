@@ -1,40 +1,63 @@
-# 超级课程表 — MkDocs 课程评价平台
+# HKSYU 超级课程表
 
-基于 MkDocs + Material 主题构建的课程评价平台，使用 GitBook 风格的自定义 CSS。适用于任何高校的课程评价信息展示。
+> 香港树仁大学课程评价平台 — 由树仁学生共建
 
-## 部署前需要配置的内容
+## 项目背景
 
-以下文件包含占位信息，部署前请替换为你自己的内容：
+本项目是香港树仁大学（HKSYU）的非官方课程评价平台，旨在帮助同学们在选课时有可参考的真实评价。所有评价均来自真实的学生经历，涵盖课程难度、给分情况、老师风格等维度。
 
-| 文件 | 需要修改的内容 |
-|------|---------------|
-| `mkdocs.yml` | `site_name`、`site_description`、`site_url`、`logo`/`favicon` 路径、`nav` 外部链接 |
-| `docs/assets/images/` | 放入你自己的 `logo.png` 和 `favicon.png`（或修改 `mkdocs.yml` 中的文件名） |
-| `docs/assets/javascripts/extra.js` | `internalHosts` 数组中添加你的域名 |
-| `docs/index.md` | 首页内容、小程序二维码、评价提交链接 |
-| `k8s/deployment.yaml` | ICP 备案号（`ICP_NUMBER`）和 `ICP_CHINA_ONLY` |
-| `k8s/ingress.yaml` | 域名、TLS secret 名称、资源名称 |
-| `k8s/service.yaml` | 服务名称 |
-| `docs/` 各院系目录 | 替换为你自己的课程评价数据 |
+由于缺少持续的评价供稿，原网站已暂停运营。现在将项目开源，希望树仁的同学们能够通过 GitHub Pull Request 的方式继续贡献评价，让这个平台持续为后来者提供参考。
 
-### ICP 备案号配置
+## 快速运行
 
-ICP 备案号通过环境变量注入，支持仅对中国大陆 IP 显示：
+### 方式一：Python 本地运行
 
-```yaml
-# k8s/deployment.yaml
-env:
-  - name: ICP_NUMBER
-    value: "你的ICP备案号"    # 留空则不显示
-  - name: ICP_CHINA_ONLY
-    value: "true"             # true = 仅大陆 IP 显示
+```bash
+# 安装依赖
+pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin
+
+# 本地预览（支持热重载）
+mkdocs serve -a 127.0.0.1:8000
+
+# 生产构建
+mkdocs build
 ```
+
+构建产物在 `site/` 目录下，可使用任意 HTTP 服务器托管：
+
+```bash
+cd site/ && python3 -m http.server 8080
+```
+
+### 方式二：Docker / Podman
+
+```bash
+# 构建镜像
+docker build -t hksyu-super-schedule .
+
+# 运行
+docker run -d -p 8080:8080 hksyu-super-schedule
+
+# 带 ICP 备案号运行（仅大陆 IP 可见）
+docker run -d -p 8080:8080 \
+  -e ICP_NUMBER="你的ICP备案号" \
+  -e ICP_CHINA_ONLY=true \
+  hksyu-super-schedule
+```
+
+### 方式三：Kubernetes
+
+```bash
+kubectl apply -f k8s/
+```
+
+> **注意**：部署前需修改 `k8s/ingress.yaml` 中的域名和 TLS 配置。ICP 备案号在 `k8s/deployment.yaml` 的 `env` 中配置。
 
 ## 供稿方式
 
 ### 方式一：问卷提交
 
-在 `docs/index.md` 中放入你自己的评价问卷链接。
+填写 [评价问卷](https://wj.qq.com/s2/8669157/afbb/) 即可提交课程评价。
 
 ### 方式二：GitHub Pull Request
 
@@ -94,62 +117,6 @@ Fork 本仓库，按以下格式创建或编辑课程文件，然后提交 Pull 
 
 完成后还需更新 `docs/<系别>/index.md` 课程列表中的评分（如果评分有变化）。
 
-## 本地部署
-
-### 前置要求
-
-- Python 3.10+
-- pip
-
-```bash
-pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin
-```
-
-### 方式一：Python 本地运行
-
-```bash
-# 构建
-mkdocs build
-
-# 本地预览（开发模式，支持热重载）
-mkdocs serve -a 127.0.0.1:8000
-```
-
-构建产物在 `site/` 目录下，可使用任意 HTTP 服务器托管：
-
-```bash
-cd site/ && python3 -m http.server 8080
-```
-
-### 方式二：Docker / Podman
-
-```bash
-# 构建镜像
-docker build -t course-review .
-
-# 运行（不带 ICP 备案号）
-docker run -d -p 8080:8080 course-review
-
-# 运行（带 ICP 备案号）
-docker run -d -p 8080:8080 \
-  -e ICP_NUMBER="京ICP备XXXXXXXX号" \
-  -e ICP_CHINA_ONLY=true \
-  course-review
-```
-
-访问 http://localhost:8080
-
-### 方式三：Kubernetes
-
-```bash
-# 构建并推送镜像（替换为你的 registry）
-docker build -t your-registry/course-review:latest .
-docker push your-registry/course-review:latest
-
-# 部署（请先修改 k8s/ 中的域名和配置）
-kubectl apply -f k8s/
-```
-
 ## 项目结构
 
 ```
@@ -169,11 +136,25 @@ kubectl apply -f k8s/
 │   │   │   ├── site-config.js      # 环境变量占位（运行时替换）
 │   │   │   └── extra.js            # 外部链接拦截、ICP 备案号、Tooltip
 │   │   └── images/
-│   ├── soc/                    # 示例：社会系课程
-│   └── ...                     # 其他院系
+│   ├── bus/                    # 商学系
+│   ├── chi/                    # 中文系
+│   ├── comp/                   # 计算机系
+│   ├── econ/                   # 经济系
+│   ├── eng/                    # 英文系
+│   ├── fin/                    # 金融系
+│   ├── fren/                   # 法语系
+│   ├── ge/                     # 通识课（GEA/GEB/GEC/GED）
+│   ├── hist/                   # 历史系
+│   ├── jour/                   # 新传系
+│   ├── law/                    # 法律系
+│   ├── mdit/                   # 媒体设计与虚拟现实科技
+│   ├── pe/                     # 体育
+│   ├── phil/                   # 哲学系
+│   ├── pra/                    # 公共关系与广告
+│   └── soc/                    # 社会系
 └── overrides/                  # MkDocs 主题覆盖模板
 ```
 
 ## License
 
-MIT License — Copyright (c) 2022-present
+MIT License — Copyright (c) 2022-present HKSYU Students
