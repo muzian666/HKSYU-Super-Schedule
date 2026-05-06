@@ -36,6 +36,7 @@ extra_css:
   - assets/stylesheets/extra.css
 
 extra_javascript:
+  - assets/javascripts/site-config.js
   - assets/javascripts/extra.js
 
 plugins:

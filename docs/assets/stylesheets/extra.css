@@ -670,6 +670,23 @@ mark.md-search-result__highlight {
    Custom utility classes
    =================================== */
 
+/* ICP 备案号栏 */
+.gb-icp-bar {
+  text-align: center;
+  padding: 8px 16px;
+  font-size: 12px;
+  color: var(--gb-text-muted);
+  background: var(--gb-sidebar-bg);
+}
+.gb-icp-bar a {
+  color: var(--gb-text-muted);
+  text-decoration: none;
+}
+.gb-icp-bar a:hover {
+  color: var(--gb-sidebar-active);
+  text-decoration: underline;
+}
+
 /* Update timestamp */
 .gb-update-time {
   color: #8e908c;

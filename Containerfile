@@ -21,6 +21,10 @@ COPY --from=builder /build/site /usr/share/nginx/html
 # Custom nginx config: listen on 8080, SPA-style fallback
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
+# Entrypoint: replace env placeholders in site-config.js at runtime
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
 EXPOSE 8080
 
-CMD ["nginx", "-g", "daemon off;"]
+ENTRYPOINT ["/entrypoint.sh"]

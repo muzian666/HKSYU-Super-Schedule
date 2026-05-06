@@ -31,6 +31,50 @@
   observer.observe(document.body, { childList: true, subtree: true });
 })();
 
+// ICP 备案号栏
+(function () {
+  var cfg = window.__SITE_CONFIG__ || {};
+  var icpNumber = cfg.icpNumber;
+  if (!icpNumber || icpNumber === '__ICP_NUMBER__') return;
+
+  var chinaOnly = cfg.icpChinaOnly;
+
+  function showBar() {
+    var bar = document.createElement('div');
+    bar.className = 'gb-icp-bar';
+    bar.innerHTML = '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">' + icpNumber + '</a>';
+    document.body.appendChild(bar);
+  }
+
+  function checkCountryAndShow() {
+    var cacheKey = 'gb_ip_country';
+    var cacheTs = cacheKey + '_ts';
+    var cached = localStorage.getItem(cacheKey);
+    var ts = parseInt(localStorage.getItem(cacheTs), 10);
+    if (cached && ts && Date.now() - ts < 86400000) {
+      if (!chinaOnly || cached === 'CN') showBar();
+      return;
+    }
+    fetch('https://ipapi.co/json/')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        var cc = data.country_code || '';
+        localStorage.setItem(cacheKey, cc);
+        localStorage.setItem(cacheTs, String(Date.now()));
+        if (!chinaOnly || cc === 'CN') showBar();
+      })
+      .catch(function () {
+        showBar();
+      });
+  }
+
+  if (!chinaOnly) {
+    showBar();
+  } else {
+    checkCountryAndShow();
+  }
+})();
+
 // SD Tooltip - positioned at body level to avoid table overflow clipping
 (function () {
   var tip = document.createElement('div');

@@ -20,6 +20,11 @@ spec:
           imagePullPolicy: Never
           ports:
             - containerPort: 8080
+          env:
+            - name: ICP_NUMBER
+              value: "皖ICP备2021010792号-1"
+            - name: ICP_CHINA_ONLY
+              value: "true"
           resources:
             requests:
               cpu: 50m
