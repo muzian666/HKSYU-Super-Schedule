@@ -1,6 +1,6 @@
-site_name: 大小姐的杂货铺
-site_description: 香港树仁大学课程评价平台
-site_url: https://www.pass3exceed4.com
+site_name: YOUR_SITE_NAME
+site_description: YOUR_SITE_DESCRIPTION
+site_url: https://example.com
 
 theme:
   name: material
@@ -29,8 +29,8 @@ theme:
         icon: material/weather-sunny
         name: 切换到浅色模式
   font: false
-  logo: assets/images/basicprofile.jpeg
-  favicon: assets/images/basicprofile.jpeg
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
 
 extra_css:
   - assets/stylesheets/extra.css

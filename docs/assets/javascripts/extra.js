@@ -1,6 +1,6 @@
 // Intercept external nav links -> open confirmation page in new tab
 (function () {
-  var internalHosts = ['localhost', '127.0.0.1', 'www.pass3exceed4.com', 'pass3exceed4.com'];
+  var internalHosts = ['localhost', '127.0.0.1'];
 
   function processLinks() {
     // Target both sidebar nav links AND page content links

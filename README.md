@@ -1,23 +1,40 @@
-# HKSYU 超级课程表
+# 超级课程表 — MkDocs 课程评价平台
 
-> 香港树仁大学课程评价平台 — 由树仁学生共建
+基于 MkDocs + Material 主题构建的课程评价平台，使用 GitBook 风格的自定义 CSS。适用于任何高校的课程评价信息展示。
 
-## 项目背景
+## 部署前需要配置的内容
 
-本项目是香港树仁大学（HKSYU）的非官方课程评价平台，旨在帮助同学们在选课时有可参考的真实评价。所有评价均来自真实的学生经历，涵盖课程难度、给分情况、老师风格等维度。
+以下文件包含占位信息，部署前请替换为你自己的内容：
 
-由于缺少持续的评价供稿，原网站已暂停运营。现在将项目开源，希望树仁的同学们能够通过 GitHub Pull Request 的方式继续贡献评价，让这个平台持续为后来者提供参考。
+| 文件 | 需要修改的内容 |
+|------|---------------|
+| `mkdocs.yml` | `site_name`、`site_description`、`site_url`、`logo`/`favicon` 路径、`nav` 外部链接 |
+| `docs/assets/images/` | 放入你自己的 `logo.png` 和 `favicon.png`（或修改 `mkdocs.yml` 中的文件名） |
+| `docs/assets/javascripts/extra.js` | `internalHosts` 数组中添加你的域名 |
+| `docs/index.md` | 首页内容、小程序二维码、评价提交链接 |
+| `k8s/deployment.yaml` | ICP 备案号（`ICP_NUMBER`）和 `ICP_CHINA_ONLY` |
+| `k8s/ingress.yaml` | 域名、TLS secret 名称、资源名称 |
+| `k8s/service.yaml` | 服务名称 |
+| `docs/` 各院系目录 | 替换为你自己的课程评价数据 |
 
-## 项目网站
+### ICP 备案号配置
 
-- 线上地址：[https://www.pass3exceed4.com](https://www.pass3exceed4.com)
-- GitHub 仓库：[https://github.com/muzian666/HKSYU-Super-Schedule](https://github.com/muzian666/HKSYU-Super-Schedule)
+ICP 备案号通过环境变量注入，支持仅对中国大陆 IP 显示：
+
+```yaml
+# k8s/deployment.yaml
+env:
+  - name: ICP_NUMBER
+    value: "你的ICP备案号"    # 留空则不显示
+  - name: ICP_CHINA_ONLY
+    value: "true"             # true = 仅大陆 IP 显示
+```
 
 ## 供稿方式
 
 ### 方式一：问卷提交
 
-填写 [评价问卷](https://wj.qq.com/s2/8669157/afbb/) 即可提交课程评价。
+在 `docs/index.md` 中放入你自己的评价问卷链接。
 
 ### 方式二：GitHub Pull Request
 
@@ -108,14 +125,16 @@ cd site/ && python3 -m http.server 8080
 
 ```bash
 # 构建镜像
-docker build -t hksyu-super-schedule .
-# 或
-podman build -t hksyu-super-schedule .
+docker build -t course-review .
 
-# 运行
-docker run -d -p 8080:8080 --name super-schedule hksyu-super-schedule
-# 或
-podman run -d -p 8080:8080 --name super-schedule hksyu-super-schedule
+# 运行（不带 ICP 备案号）
+docker run -d -p 8080:8080 course-review
+
+# 运行（带 ICP 备案号）
+docker run -d -p 8080:8080 \
+  -e ICP_NUMBER="京ICP备XXXXXXXX号" \
+  -e ICP_CHINA_ONLY=true \
+  course-review
 ```
 
 访问 http://localhost:8080
@@ -124,58 +143,37 @@ podman run -d -p 8080:8080 --name super-schedule hksyu-super-schedule
 
 ```bash
 # 构建并推送镜像（替换为你的 registry）
-docker build -t your-registry/hksyu-super-schedule:latest .
-docker push your-registry/hksyu-super-schedule:latest
+docker build -t your-registry/course-review:latest .
+docker push your-registry/course-review:latest
 
-# 部署
+# 部署（请先修改 k8s/ 中的域名和配置）
 kubectl apply -f k8s/
-
-# 查看状态
-kubectl get pods -l app=hksyu-super-schedule
 ```
-
-Kubernetes 配置文件位于 `k8s/` 目录，包含：
-- `deployment.yaml` — Deployment（1 副本，端口 8080）
-- `service.yaml` — ClusterIP Service
-- `ingress.yaml` — Ingress（nginx，需配置你的域名和 TLS）
-
-> **注意**：部署前请修改 `k8s/ingress.yaml` 中的 `host` 和 TLS 配置以匹配你的域名。
 
 ## 项目结构
 
 ```
 ├── mkdocs.yml                  # MkDocs 主配置
-├── Containerfile               # Docker/Podman 构建文件
+├── Containerfile               # Docker 多阶段构建
+├── entrypoint.sh               # 容器启动脚本（envsubst 替换环境变量）
+├── nginx.conf                  # Nginx 配置
 ├── k8s/                        # Kubernetes 部署配置
 │   ├── deployment.yaml
 │   ├── service.yaml
 │   └── ingress.yaml
 ├── docs/                       # 站点内容（Markdown）
 │   ├── index.md                # 首页
-│   ├── assets/                 # CSS、JS、图片
-│   ├── bus/                    # 商学系
-│   ├── chi/                    # 中文系
-│   ├── comp/                   # 计算机系
-│   ├── econ/                   # 经济系
-│   ├── eng/                    # 英文系
-│   ├── fin/                    # 金融系
-│   ├── fren/                   # 法语系
-│   ├── ge/                     # 通识课（GEA/GEB/GEC/GED）
-│   ├── hist/                   # 历史系
-│   ├── jour/                   # 新传系
-│   ├── law/                    # 法律系
-│   ├── mdit/                   # 媒体设计与虚拟现实科技
-│   ├── pe/                     # 体育
-│   ├── phil/                   # 哲学系
-│   ├── pra/                    # 公共关系与广告
-│   └── soc/                    # 社会系
+│   ├── assets/
+│   │   ├── stylesheets/extra.css   # GitBook 风格 CSS
+│   │   ├── javascripts/
+│   │   │   ├── site-config.js      # 环境变量占位（运行时替换）
+│   │   │   └── extra.js            # 外部链接拦截、ICP 备案号、Tooltip
+│   │   └── images/
+│   ├── soc/                    # 示例：社会系课程
+│   └── ...                     # 其他院系
 └── overrides/                  # MkDocs 主题覆盖模板
 ```
 
 ## License
 
-MIT License
-
-Copyright (c) 2022-present HKSYU Students
-
-本项目由香港树仁大学学生发起并共建。你可以自由使用、修改和分发本项目，但请保留原始版权声明，并认可这是树仁学生的共同成果。
+MIT License — Copyright (c) 2022-present
