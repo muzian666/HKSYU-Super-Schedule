@@ -13,7 +13,7 @@ COPY overrides/ overrides/
 RUN mkdocs build
 
 # ---- Stage 2: Serve ----
-FROM nginx:1.27-alpine
+FROM nginx:1.31.3-alpine
 
 # Use non-privileged port
 COPY --from=builder /build/site /usr/share/nginx/html

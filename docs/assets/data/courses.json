@@ -1,0 +1,2147 @@
+{
+  "courses": [
+    {
+      "id": "bus100",
+      "code": "BUS100",
+      "name": "Introduction to Business",
+      "nameCn": "商业概论",
+      "type": "系外选修",
+      "teacher": "Dr. Na Shen",
+      "language": "英语、普通话",
+      "lastUpdated": "2023-07-26 10:27:27",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-15",
+          "reviewer": "小雪子",
+          "grade": "A-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "有小組PPT，期中考試是MC和一道問答題，有期末，但是不難，有一次個人作業。老師很耐斯，給分也不錯，每次課堂都會有分組討論，每次大家輪流出來說就好了。這門課很好拿分，不難，對於有曾經上過類似科目的人來說，更加簡單。想要提高GPA必須選的一門課！"
+        }
+      ],
+      "departmentId": "bus"
+    },
+    {
+      "id": "bus350",
+      "code": "BUS350",
+      "name": "Supply Chain Finance",
+      "nameCn": "供应链金融",
+      "type": "系外选修 （可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Dr. Zhou Qiang",
+      "language": "英语、普通话",
+      "lastUpdated": "2023-12-22 14:18:37",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-09-27",
+          "reviewer": "114514",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "这节课讲的是供应链管理相关的内容，老师讲的内容非常清晰，但是内容上会有一定的难度，如果不是很喜欢的同学最好不要选择。但是供应链的东西还挺有意思的，尤其是这个内容非常贴合实际生活中的一些事情，学完这个课之后可以对现实中的一些产品的定价有一定的了解。这个课有3个个人作业，一个小组作业，个人作业有选择题和简答题，小组作业是简答题。主要老师人好，有任何问题都可以询问他。没有考试。"
+        }
+      ],
+      "departmentId": "bus"
+    },
+    {
+      "id": "bus424",
+      "code": "BUS424",
+      "name": "Issues in Business Practice",
+      "nameCn": "商业实践中的问题",
+      "type": "系内选修 （可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Shen Na",
+      "language": "普通话",
+      "lastUpdated": "2022-12-22 02:33:19",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "甄嬛",
+          "grade": "A",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "没有考试，作业不多。每节上课都要discussion 但是很简单， 基本都能百度到，强推。"
+        }
+      ],
+      "departmentId": "bus"
+    },
+    {
+      "id": "chi102",
+      "code": "CHI102",
+      "name": "First Year Chinese 2",
+      "nameCn": "语文课 2",
+      "type": "必修课",
+      "teacher": "伍钧钧（该课程可能存在多位老师，已在下方进行标明）",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 11:25:08",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": null,
+        "sd": null,
+        "note": "因存在多位老师，综合评分不适用"
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "普扎",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": "伍钧钧",
+          "content": "很好的老师，没有什么可以挑剔。还会用普通话讲解一遍。分到伍钧钧的同学很lucky"
+        }
+      ],
+      "departmentId": "chi"
+    },
+    {
+      "id": "chi112",
+      "code": "CHI112",
+      "name": "Shi Ji",
+      "nameCn": "史记",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "傅承洲",
+      "language": "普通话",
+      "lastUpdated": "2022-12-22 02:20:30",
+      "stats": {
+        "reviewCount": 2,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-01",
+          "reviewer": "可爱小叶",
+          "grade": "B-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "内地老师 普通话讲课only 上过的都说好 final卷子交错了也很好的沟通回来了 在这个基础上愿意接受我的卷子已经谢天谢地了所以分数打点折扣也无妨 老师真的很好 上过的都说好（虽然大部分人都不会听课吧"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "橘猫",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "有小组pre、个人论文。有final，不计出勤。在我心里很完美的一个课，老师讲着完美的字正腔圆普通话，不管是作业还是pre都是普通话，所以我还是十分得心应手。唯一的不足就是这个课很困，不过因为是当时是网课，我经常直接睡觉了qwq"
+        }
+      ],
+      "departmentId": "chi"
+    },
+    {
+      "id": "chi213",
+      "code": "CHI213",
+      "name": "Shi Jing",
+      "nameCn": "诗经",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "何祥荣",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 12:05:01",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "CHI大四",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "小组报告和期末考试都有，平时作业三份，老师给分比较友好，具体讲的就是诗经的背景还有篇章解析。整体听下来还不错，有兴趣的同学可以尝试。"
+        }
+      ],
+      "departmentId": "chi"
+    },
+    {
+      "id": "chi273",
+      "code": "CHI273",
+      "name": "General Linguistics",
+      "nameCn": "普通语言学",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "杨若薇",
+      "language": "普通话",
+      "lastUpdated": "2022-12-22 12:17:02",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "CHI大四同学",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "语言学概论，平时作业两份小问答卷，有final；有pre无report，老师给分友好。现代语言学发展方向同学可以选这位老师之后的几门课程，都有涉及语言学领域。"
+        }
+      ],
+      "departmentId": "chi"
+    },
+    {
+      "id": "chi290",
+      "code": "CHI290",
+      "name": "Creative Writing",
+      "nameCn": "创意写作",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "何嘉俊",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 17:09:40",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-12-22",
+          "reviewer": "小C",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "一个小组，三份写作作业，按老师要求写小说。没有论文和考试。老师不仅是靓仔，上课氛围还很轻松，喜欢写作的可以学到很多东西，强推！"
+        }
+      ],
+      "departmentId": "chi"
+    },
+    {
+      "id": "chi323",
+      "code": "CHI323",
+      "name": "P'ian Wen",
+      "nameCn": "骈文",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "何祥荣",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 15:24:02",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "CHI大四同学",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "这门是树仁中文系独有的，对诗歌有兴趣的友友可以选。平时作业共三份，撰写句；对联；篇章。字数要求不多（毕竟是诗歌）有pre无report；有期末考试。认真听课就能有不错的成绩。"
+        }
+      ],
+      "departmentId": "chi"
+    },
+    {
+      "id": "chi384",
+      "code": "CHI384",
+      "name": "Zuo Zhuan",
+      "nameCn": "左传",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "段书伟",
+      "language": "普通话",
+      "lastUpdated": "2022-12-22 12:07:06",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "CHI大四同学",
+          "grade": "B",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "段爷出品，必是精品。小组报告包含Pre和书面报告，平时作业四份（因为网课，取消期末考试所以作业比重增加）段爷的要求会比较高哦，内容就是介绍左传篇目，从史学经学等角度分析，有兴趣的友友选这门来加深自己对先秦文学的见识也是不错的。"
+        }
+      ],
+      "departmentId": "chi"
+    },
+    {
+      "id": "comp204",
+      "code": "COMP204",
+      "name": "Web Page Development",
+      "nameCn": "网页开发",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "C.K.Wong",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 02:25:32",
+      "stats": {
+        "reviewCount": 2,
+        "avgRating": 2.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-01",
+          "reviewer": "tnn",
+          "grade": "B+",
+          "rating": 2.0,
+          "teacher": null,
+          "content": "不推荐不是很喜欢电脑课以及不喜欢很多课后作业的同学选这门课。上课内容较为枯燥，每周都有任务需要完成，无小组作业，没有期末考但是有很多小测。上课需要听得比较认真，不然最后两个小测会时间很紧张来不及完成。老师给分很细，会根据小测、作业等各项要求评分。"
+        },
+        {
+          "date": "2021-07-13",
+          "reviewer": "114514",
+          "grade": "B",
+          "rating": 2.0,
+          "teacher": null,
+          "content": "这个课的作业非常多，而且非常烦，而且考试还贼多，每一节课下课都有课堂小测，然后每节课下课都有作业，然后作业虽然说很简单但是很烦人，因为就是要收集你的个人资料。老师人还行，还比较耐心解答，如果你能坚持认真听完每一节课，认真交每一个作业，认真考试（考到班级前三），还会有小奖牌奖励。但是课真的非常烦，如果不是多网页设计有非常浓厚兴趣的同学建议慎入。"
+        }
+      ],
+      "departmentId": "comp"
+    },
+    {
+      "id": "econ413",
+      "code": "ECON413",
+      "name": "Mathematical Economics",
+      "nameCn": "数学经济学",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Dr. TANG Chi Ho, Edward",
+      "language": "普通话、英语、粤语",
+      "lastUpdated": "2023-06-30 16:02:29",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2023-06-30",
+          "reviewer": "114514",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "这个课是一个纯纯的数学课，有四次考试，以及四次作业，不过好在考试是开卷的。老师人很好，有不懂的问题可以去问他。这个数学有点难度，不喜欢数学的慎选，主要是讲凹凸集，然后凹凸函数什么的。"
+        }
+      ],
+      "departmentId": "econ"
+    },
+    {
+      "id": "eng140",
+      "code": "ENG140",
+      "name": "Introduction to Translation",
+      "nameCn": "翻译导论",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Dr. CK.Wong",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 11:51:56",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 3.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "小音",
+          "grade": "C",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "有一次小组作业，有期末考！作业不是很多都是翻译类型的作业，建议英语基础比较好的选。因为授课内容技巧传授的多但是翻译的单词基础和语法基础对考试和作业的作用影响更大！"
+        }
+      ],
+      "departmentId": "eng"
+    },
+    {
+      "id": "eng212",
+      "code": "ENG212",
+      "name": "English Writing (2)",
+      "nameCn": "英语写作 (2)",
+      "type": "必修课（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Wong",
+      "language": "英语",
+      "lastUpdated": "2022-12-22 01:45:36",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-08",
+          "reviewer": "z y c",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "写三篇英语作文 没有期中期末考试 老师上课和批改作业很负责 并且可以用普通话和同学交流"
+        }
+      ],
+      "departmentId": "eng"
+    },
+    {
+      "id": "fin243",
+      "code": "FIN243",
+      "name": "Money and Banking",
+      "nameCn": "货币和银行业",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Joe, Wang",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22 14:16:09",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 1.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-08-26",
+          "reviewer": "114514",
+          "grade": "C+",
+          "rating": 1.0,
+          "teacher": null,
+          "content": "对于这个课，我只能说，金融系的各位同学能不选最好别选，快逃，首先这个老师非常的烦，大家搜一下joe就知道了，普遍评价非常的emmmm。然后这个课的话，跟FIN245内容基本上差不多，可以理解为FIN245的外传课吧，不过会有一些不太一样，比如会提到香港金融体系的运作方式等内容，只能说FIN245偏理科，FIN243偏文科，差不多就这样，也有小组作业，这课唯一的缺点就是老师太烦了！"
+        }
+      ],
+      "departmentId": "fin"
+    },
+    {
+      "id": "fin245",
+      "code": "FIN245",
+      "name": "Introduction to Corporate Finance",
+      "nameCn": "公司金融概论",
+      "type": "必修课（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Joe, Wang",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22 14:13:34",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 1.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-08-26",
+          "reviewer": "114514",
+          "grade": "C+",
+          "rating": 1.0,
+          "teacher": null,
+          "content": "我只能说，这个老师有的人觉得好，有的人觉得不好，但我就是觉得他很不好，他非常的烦！每节课下课都有作业，然后下节课上课点名提问，妥妥的高中感觉（可能比高中还惨），另外就是他算分也非常的神经病，1% 0.5%的给你算分，做也不是，不做也不是，就nm离谱，而且小测也非常非常多。这个课有小组作业，是找个公司分析财务情况。课程中公式非常多，有期末考试，总体来说学下来还行吧，就是交一些财务相关的东西，比如债权什么的，就是老师太烦了。"
+        }
+      ],
+      "departmentId": "fin"
+    },
+    {
+      "id": "fin314",
+      "code": "FIN314",
+      "name": "未知",
+      "nameCn": "未知",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Joe, Wang",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22 13:45:00",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-11",
+          "reviewer": "空",
+          "grade": "B+",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "老师很负责，有课堂小考有期中期末，有小组论文和pre，作业量不算少但是属于认真学会有高分的课。"
+        }
+      ],
+      "departmentId": "fin"
+    },
+    {
+      "id": "fin349",
+      "code": "FIN349",
+      "name": "Wealth Management and Planning",
+      "nameCn": "财富管理与规划",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Tang Chi Ho",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 13:41:36",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-11",
+          "reviewer": "Daisy",
+          "grade": "B+",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "平时有课堂参与测验可以答很多次容易得分，有平时作业，有小组作业和pre有期末考试考试有难度，老师很好，这门课不算水课但是会有收获。"
+        }
+      ],
+      "departmentId": "fin"
+    },
+    {
+      "id": "fren191",
+      "code": "FREN191",
+      "name": "French 1",
+      "nameCn": "法语 1",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Serge Galin",
+      "language": "英语、法语（备注：一点点法语活跃气氛，老师还会说点粤语单词）",
+      "lastUpdated": "2022-12-22 00:51:26",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-08",
+          "reviewer": "一般路过的企鹅",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "无小组作业（但正常面授之后不清楚），无课后作业，有midterm exam和final exam。法语课的课堂互动程度很高，氛围热闹，会轮着邀请大家来读和做一些很简单的趣味题目。教学内容较为入门，主要围绕日常使用法语问好、简单介绍自己和描述事物、学习简单名词和语法。课程最后还会教一些数字发音，个人认为这是比较有挑战的部分，因为和句子一起念感觉比较黏糊。老师给分个人觉得比较公正，个人感觉学的程度和最后得分比较相似。这门课是法语1，还有法语2、3、4这种更深入的课程可以继续学"
+        }
+      ],
+      "departmentId": "fren"
+    },
+    {
+      "id": "hist100",
+      "code": "HIST100",
+      "name": "General Chinese History",
+      "nameCn": "中国通史",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "李嫣婷",
+      "language": "英语、粤语、普通话（备注：用英语发邮件，用粤语上课，有普通话（简体中文）查阅资料）",
+      "lastUpdated": "2022-12-16 23:59:25",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-08",
+          "reviewer": "刘二呆",
+          "grade": "B",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "老师还好，不会出现C的情况。但是对A的等地要求严格，大部分都是B等地的成绩"
+        }
+      ],
+      "departmentId": "hist"
+    },
+    {
+      "id": "hist241",
+      "code": "HIST241",
+      "name": "From British Colony to SAR",
+      "nameCn": "从英国殖民地到特别行政区",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "区志坚",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 13:34:39",
+      "stats": {
+        "reviewCount": 2,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-03",
+          "reviewer": "Daisy",
+          "grade": "A-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "粤语居多，如果听不懂老师很愿意用普通话解释。有小组作业有长论文，课业不轻松，课程是关于回归前后的香港，会涉及政治讨论但是不会很令内地生尴尬，老师也会讲一些时事新闻。个人成绩还可以但确实付出了超预期的时间和努力。大多数朋友觉得给分比较迷，给分这方面持保留意见。"
+        },
+        {
+          "date": "2021-08-02",
+          "reviewer": "CHI大四同学",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "作业有点多，老师人很好，对内地生友好。二年级选修课程但是论文要求字数比二年级要求多，有期末考试，pre，书面报告和期末论文，课还是蛮有趣的，有很多的视频歌曲素材等。"
+        }
+      ],
+      "departmentId": "hist"
+    },
+    {
+      "id": "hist462",
+      "code": "HIST462",
+      "name": "The Making of Modern Japan",
+      "nameCn": "现代日本的形成",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "周子峰",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 12:11:55",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "CHI大四同学",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "老师人很好，平时作业不多，整个学期有pre；书面report；final，没有平时作业。主要了解日本历史文化，从古代现代当代等方面讲述，课程内容很仔细和全面，美中不足就是论文字数要求有点高。"
+        }
+      ],
+      "departmentId": "hist"
+    },
+    {
+      "id": "jour130",
+      "code": "JOUR130",
+      "name": "Digital Photojournalism",
+      "nameCn": "数字新闻摄影",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "William Cheung King Ling",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 14:00:37",
+      "stats": {
+        "reviewCount": 2,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-06-24",
+          "reviewer": "理查德佬",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "我这年是网上授课，可以摸鱼，老师人特别好，能听懂普通话，上课喜欢吹水，商量好后可以晚交作业。老师是明报的记者，所以pre的时候记得多夸夸明报。总之平时和老师多聊聊天，搞好关系，成绩就不会差。当然这门课需要经常拿着单反怼着陌生人脸拍，社恐的友友考虑后再报"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "橘猫",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "有小组比报、小组出外景大作业、个人照片评价三次、个人拍摄作业三次、个人大作业一份（每个大作业都需要叫原图、ppt、制作视频、打印成册）可以说是我上过最累的课，虽然比较有趣，但是真的累。每周我不是在拍照，就是在拍照的路上。应该是我花时间最多的一门课。结果就算还行吧哈哈哈哈哈，喜欢拍照的且不怕累的可以冲！没有单反没事，新传系可以借的。"
+        }
+      ],
+      "departmentId": "jour"
+    },
+    {
+      "id": "jour170",
+      "code": "JOUR170",
+      "name": "Visual Communication",
+      "nameCn": "视觉交流",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "容若愚（YUNG Yuk-yu）",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 01:02:41",
+      "stats": {
+        "reviewCount": 3,
+        "avgRating": 4.67,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-13",
+          "reviewer": "噢耶",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "没有小组作业 就是写小作文 考试也跟平时题目差不多 上课可以看电影"
+        },
+        {
+          "date": "2021-07-13",
+          "reviewer": "一位19届靓仔",
+          "grade": "B",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "没有中段考！！！没有term paper！！！ 上课就是看电影，虽然给我B，但是很多人都是B+以上，给分超nice。"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "橘猫",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "有三次影评作业，无小组，有final，不计出勤老师感觉很大条，不计出勤，经常不上课或者直接放电影。影评作业记得好好写，本来以为能拿A的，结果拿了B+。如果跟老师关系好，估计可以A的可能性大一些。"
+        }
+      ],
+      "departmentId": "jour"
+    },
+    {
+      "id": "jour201",
+      "code": "JOUR201",
+      "name": "Audio-Visual Production",
+      "nameCn": "视听制作",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Joanna",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 11:20:31",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 3.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "普扎",
+          "grade": "B-",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "我当时的老师好像是港台的编导，现在估计不是她了。有一个project是跟拍一个社会人士跟一天，老师负责找的人。我那时候跟的是一个物理治疗师，还跟着他去了半山豪宅做治疗，是有趣，但很累学不懂。我还是想说，不是这个专业的同学不要选，上手困难，天雷滚滚。"
+        }
+      ],
+      "departmentId": "jour"
+    },
+    {
+      "id": "jour250",
+      "code": "JOUR250",
+      "name": "Introduction to Mass Media in China",
+      "nameCn": "中国大众传媒概论",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Li Xiaojin",
+      "language": "粤语、普通话",
+      "lastUpdated": "2022-12-22 12:34:28",
+      "stats": {
+        "reviewCount": 3,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-03",
+          "reviewer": "Daisy",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "普通话教学，没有语言压力，讲内地新传发展史，老师人美心善，有期中期末也有小组作业，但是作业量不算多，努力就能得高分的课。"
+        },
+        {
+          "date": "2021-08-02",
+          "reviewer": "空",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "有一个presentation，没有小组的paper，有individual paper，有期中考试，应该也是有期末考试的，但是疫情的原因取消了，期末的分数平摊到了pre和其他任务上。就算是考试也不难，只要跟着老师走就没问题。"
+        },
+        {
+          "date": "2021-08-02",
+          "reviewer": "普扎",
+          "grade": "B+",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "学的不难，都是一些比较表面的现象什么的，经常比较中港异同，不会太涉及理论。没有出入门测，放心大胆的选"
+        }
+      ],
+      "departmentId": "jour"
+    },
+    {
+      "id": "jour260",
+      "code": "JOUR260",
+      "name": "Computer Graphic Design & Publishing",
+      "nameCn": "计算机图形设计与出版",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Ng Wai Ming Chris",
+      "language": "粤语",
+      "lastUpdated": "2022-12-16 23:38:15",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-08",
+          "reviewer": "114514",
+          "grade": "A-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "这个课的老师大部分的时间都会使用粤语，但是老师人很好，如果有需要的话他会使用英语说，另外还会一点点拗口的普通话，尽可能的让你听懂。有小组作业，小组作业会让你设计一家商业公司，在过程中你可以随时问他，他大部分的上课时间都是答疑的。没有考试，作业的话也很简单，基本上如果跟着他的节奏走的话直接能在课上就做完（有一些设计的作业除外）。老师给分比较友好，最后演讲的评分形式也很有趣，在最后一节课的时候老师会给每一个小组\"投资券\"，让小组与小组之间互相投资，最后获得的投资券会归小组所有，也就是说做的好的话还能拿到代金券的奖励。"
+        }
+      ],
+      "departmentId": "jour"
+    },
+    {
+      "id": "jour310",
+      "code": "JOUR310",
+      "name": "Story Telling",
+      "nameCn": "讲故事",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Yung, YY",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-23 21:06:49",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-12-23",
+          "reviewer": "22",
+          "grade": "未知",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "两次个人讲故事，一次自己录制音频，还有一个短片解读，无final，老师经常放影片给我们看，课程很轻松。"
+        }
+      ],
+      "departmentId": "jour"
+    },
+    {
+      "id": "law110",
+      "code": "LAW110",
+      "name": "Introduction to Law",
+      "nameCn": "法律概论",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "林庆舟 Brendan",
+      "language": "英语、粤语、普通话（备注：主要使用英语，辅以粤语，但如果课堂内有大陆生，也会用普通话解释。）",
+      "lastUpdated": "2022-12-22 11:03:44",
+      "stats": {
+        "reviewCount": 2,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "MYC",
+          "grade": "A",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "老师很水，内容虽然较多但通俗易懂，没有final，一个term paper，individual paper，一个pre，一个结课测验（不过会把考什么跟你说很简单）"
+        },
+        {
+          "date": "2021-07-30",
+          "reviewer": "小A",
+          "grade": "B-",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "Brendan的英语发音很标准，对课程中的生词和专业词汇会进行解释，还会邀请专业的大法官或学长学姐来进行授课；如果有问题还可以及时请教，Brendan很负责也很有耐心。上课的内容是关于香港的法律，对于非法律主修的学生来说不太能很快接受，还是有一点点难度的。\n有pre、期末考试和一篇论文：\n1、pre会有点难讨论，论点容易讨论偏（这可能是因为老师自己设置的讨论主题不太简单和我们非主修法律的原因），但老师欢迎同学在正式pre前去问他问题，向他询问pre的讨论建议。\n2、期末考试并不太难，因为在期末考试的前一周，Brendan会上传所有课程内容的笔记和要点（word），根据他的笔记（word）和课件（ppt）基本上可以答出所有题目。\n3、论文有一些难度。当时Brendan要求我们写的论文是基于pre的内容的。所以pre失败的话就得及时去问他该怎么修改了。但是也不用太担心，在我选这门课的时候，Brendan留出了整整一个多星期的时间给我们提交论文，而且论文提交的时间是在期末考试之后，所以在写论文的时候就可以参考Brendan发给我们的用于考试的笔记啦！如果论文有困难，老师也欢迎同学去问他（Brendan会加大陆同学微信，喜欢发语音条和语音聊天，习惯就好😂，普通话说的很好， 不用担心听不懂哦哈哈）\n总之，这门课对于法律专业的同学来说是比较可以的，但对非主修法律的同学来说会有一点点难（但多看看老师的笔记，多问问老师，一个学期下来也能慢慢理解的，所以不用太担心。）"
+        }
+      ],
+      "departmentId": "law"
+    },
+    {
+      "id": "law303",
+      "code": "LAW303",
+      "name": "Criminal Law",
+      "nameCn": "刑法",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Oscar TAN",
+      "language": "英语",
+      "lastUpdated": "2022-12-22 16:14:25",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 3.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-12-22",
+          "reviewer": "老油条罗森",
+          "grade": "A-",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "老师是大律师，英语发音很好；这门课难度是比较大的，不建议法商系外的同学选择（除非你真的非常敢兴趣）；给分都还可以，老师人很好，有说过我给分严格，但也不希望给一个特别低的分数；系内同学选择的话，我觉得就是注意的点比如不懂的要及时问，老师会普通话，问的越清楚越好；这门课的特征是课前要做大量的research，老师不会给出ratio（法律规则），只会给出案例名并让同学自己去寻找，一定要记住ratio是什么及对应的案例，不一定和原案一字不差，但意思一定要相同，这可能需要整理笔记的时候用自己的话去复述每个案例的ratio，压缩ratio，熟悉ratio，这样考试时才能记得清楚。有考试，作业每周基本都有，学习压力非常大；很容易进入一种迷茫不懂的处境，一旦有这种时候，务必要及时问问题。"
+        }
+      ],
+      "departmentId": "law"
+    },
+    {
+      "id": "law315",
+      "code": "LAW315",
+      "name": "Commercial Law",
+      "nameCn": "商业法",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Magnum Ng",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 13:57:05",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-20",
+          "reviewer": "橙鱼",
+          "grade": "A-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "这门课是法商系系内选修课，个人认为有难度，但想拿好看点的分数也不是不可能。作业的话是：一篇assignment（2000字），一份小组作业（pre），mini test（其实和final test差不多，比重20%）。课程内容主要就是介绍一些与商业相关的法，比如Agency、Guarantee、Sale of Goods之类。难点主要在于有些话题离大学生生活还是有点远，所以理解起来会有点困难。并且一些琐碎的知识点会绕得人有点头疼，但是老师会采用一些方便大家理解的讲解方式，举一些例子，就比较通俗易懂了，所以也不用太担心。个人认为小组作业还是挺好玩的，有点类似于《令人心动的offer1》里非诉那一期，面向客户做法律意见分析和风险评估之类的，挺有趣的，也能让自己对一些topic的理解更加深入。在做这份小组作业时有感觉自己似乎有那么一丢丢靠近法律人的状态了哈哈哈。给分的话，个人认为就是把每一阶段都做好，分数自然也会好吧。"
+        }
+      ],
+      "departmentId": "law"
+    },
+    {
+      "id": "law324",
+      "code": "LAW324",
+      "name": "Mooting and Advocacy",
+      "nameCn": "模拟和宣传",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Brendan Lam",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22 13:52:00",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-20",
+          "reviewer": "橙鱼",
+          "grade": "A",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "可以说是很特别的一门课，当时教授有提及过这门课其实主要是为了参加模拟法庭比赛的，不知道现在是否有改变。可能我分享的这些在现在已经不太适用了，仅供参考吧。课程outline的大部分内容基本在前期准备比赛（反复开会、复盘、训练、改稿）的阶段就完成了，而教授会根据准备阶段的表现以及大家在比赛中的表现，按照outline里的标准去打分。因此对于参加比赛的同学来说，这门课在十月底比赛结束，教授给完所有的分后就基本结束了。但我想说这并不意味着这门课轻松，甚至前三个月（我们当时八月份就开始准备了）的辛苦程度会远远超出你的想象。比赛时，你没精力去在意教授给自己的打分，因为当下法官们给出的评价与分数往往更一针见血。但我想说这也是收获满满的一次经历。你能体会到极强的集体荣誉感、团队凝聚力，能够在三个月里（逼迫自己）快速提升口语、能够更加了解法庭上的各种礼仪以及随机应变的技巧。至于不参与比赛的同学，如果选了这门课，同样会学习到这些技巧，锻炼到这些技能。教授会指导大家写初稿、二稿、终稿，指导大家练习口头表达，并且在后期组织一场模拟法庭，根据表现评分。所以参赛与否不会影响给分，只是课程体验会有些许不同。"
+        }
+      ],
+      "departmentId": "law"
+    },
+    {
+      "id": "mdit220",
+      "code": "MDIT220",
+      "name": "Understanding VR/AR (Unity 1/ Unreal 1)",
+      "nameCn": "理解VR/AR (Unity 1/ Unreal 1)",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Dr. KW Lau",
+      "language": "普通话、粤语、英语",
+      "lastUpdated": "2023-03-29 08:59:06",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2023-03-29",
+          "reviewer": "114514",
+          "grade": "B-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "1. 这个课很好玩，因为我本人对建模制作游戏什么的很感兴趣，所以就选了这个课；\n2. 这个课主要教的软件是Unity，然后完全没有编程相关的需求，所有的代码他都会给，不过最好会一点，因为在最后要做小组作业的时候可能会要用到一些；\n3. 小组作业非常的繁琐！大概就是按照他的要求设计一个场景，然后还要编故事belabela的，好玩是好玩，就是很累；\n4. 这个老师上课很有意思，他喜欢怼天怼地怼学校，甚至可以给你来一点Personal Lifestyle;\n5. 没有考试;\n6. 喜欢做游戏或建模，或者比较感兴趣得同学可入，不喜欢建模对制作游戏不感兴趣的慎入，不过冲着去学习制作游戏的同学也别抱太大期望，不会教很多东西的，你可以理解为启蒙课，剩下的其实可以自己去研究一些。"
+        }
+      ],
+      "departmentId": "mdit"
+    },
+    {
+      "id": "mdit320",
+      "code": "MDIT320",
+      "name": "VR/AR App Development (Unreal 2)",
+      "nameCn": "VR/AR App 开发 (Unreal 2)",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Dr. KW Lau",
+      "language": "普通话、粤语、英语",
+      "lastUpdated": "2023-06-30 14:48:11",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 3.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2023-06-30",
+          "reviewer": "114514",
+          "grade": "B+",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "说实话，这个课内容多到不行。这学期老师还让我们去参加比赛（跟专门搞这些的人比）。基本上老师只教最基础的操作，剩下的全靠自己自学。在这个课上，你需要至少了解并熟练操作Unity, Blender，需要会一点点Unreal Engine。对这些不熟的同学请劝退，这个课是专业课的同学请早点学习。老师是好老师，人很不错，有点话唠，很能聊，会给你讲述人生哲理。但是这个课给分不高，不知道为什么。这个课要完成2～3个项目，然后要写一个超级长的LabLog。"
+        }
+      ],
+      "departmentId": "mdit"
+    },
+    {
+      "id": "pe104",
+      "code": "PE104",
+      "name": "Physical Education",
+      "nameCn": "体育",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "未知，有待补充",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 11:14:02",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "普扎",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "同学们，选它！我那学期学的是羽毛球和乒乓球，挺好玩的，还要写一篇论文。另外，我在课堂上差点就和老师吵架了，还给我了A-，好人一生平安"
+        }
+      ],
+      "departmentId": "pe"
+    },
+    {
+      "id": "phil113",
+      "code": "PHIL113",
+      "name": "Logic",
+      "nameCn": "逻辑",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "翁正石",
+      "language": "粤语",
+      "lastUpdated": "2022-12-16 23:40:48",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 1.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-08",
+          "reviewer": "橘猫",
+          "grade": "C+",
+          "rating": 1.0,
+          "teacher": null,
+          "content": "有签到、无小组、无作业、有期中期末两次考试\n\n翁正石！！大家懂吧。在我心里的树仁大坑，建议避雷他的所有课\n\n不仅是因为我个人不懂粤语，而且逻辑这个课离生活日常很遥远，学的云里雾里。完全一头雾水。"
+        }
+      ],
+      "departmentId": "phil"
+    },
+    {
+      "id": "pra200",
+      "code": "PRA200",
+      "name": "Public Relations and the Media",
+      "nameCn": "公共关系和媒体",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "John LIAUW",
+      "language": "英语",
+      "lastUpdated": "2023-01-18 11:32:43",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 1.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2023-01-18",
+          "reviewer": "别选它",
+          "grade": "B",
+          "rating": 1.0,
+          "teacher": null,
+          "content": "老师上课的时候，讲的一些内容对内地人有偏见，上课的作业要求讲得不清楚，发邮件给他要么不回复，要么隔好几天才回，强烈避雷。我和我朋友一起上给分都是B，认真写完作业不缺勤的情况下。"
+        }
+      ],
+      "departmentId": "pra"
+    },
+    {
+      "id": "soc106",
+      "code": "SOC106",
+      "name": "The Art of Reasoning",
+      "nameCn": "推理的艺术",
+      "type": "系内选修",
+      "teacher": "翁正石",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "普扎",
+          "grade": "B-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "很可怕的老师，可以滔滔不绝口若悬河连续讲三个小时不放 break 的老师，所以我想给他打满分。逻辑鬼才，用的例子也挺好笑，但有的时候讲着讲着他自己也晕了，那我们在下面本来就听的云里雾里就更晕了。他讲过一句我印象深刻记到现在：点解你阿妈是女人？想要挑战自我极限的非社会学同学可以选来玩玩，社会学同学，这是你们必经之路。"
+        }
+      ],
+      "departmentId": "soc"
+    },
+    {
+      "id": "soc160",
+      "code": "SOC160",
+      "name": "Food and Society",
+      "nameCn": "食物与社会",
+      "type": "系外选修",
+      "teacher": "高崇",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22",
+      "stats": {
+        "reviewCount": 2,
+        "avgRating": 3.5,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "路过的猫",
+          "grade": "A-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "其实课的内容不无聊但是老师讲的很无聊，老师是内地人可以用普通话沟通，但是讲课用英语，有两次 pre，成绩还不错，但是讲课真的太无聊了！"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "刘二呆",
+          "grade": "B",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "讲课一般般，节奏偏慢。课程作业不少，不怎么建议选（给分还不低，但也不高）。"
+        }
+      ],
+      "departmentId": "soc"
+    },
+    {
+      "id": "soc233",
+      "code": "SOC233",
+      "name": "Contemporary Social Issues",
+      "nameCn": "当代社会问题",
+      "type": "系内选修",
+      "teacher": "Miss Mikayla",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2024-07-31",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2023-12-22",
+          "reviewer": "没毕业",
+          "grade": "未提供",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "老师超好！很 nice！真的要读 soc 都不错的，给分很好，只要你做得好。有个 exam 但是在考试周的最后一天。作业只是一个 essay 啦。"
+        }
+      ],
+      "departmentId": "soc"
+    },
+    {
+      "id": "soc255",
+      "code": "SOC255",
+      "name": "Philosophy through Film and Literature",
+      "nameCn": "通过电影和文学了解哲学",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Jess（该老师目前已确认离职，目前无替补消息）",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-17 00:03:46",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-08",
+          "reviewer": "刘二呆",
+          "grade": "B",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "老师人nice，课程很有深度，但是这个。老师已经离职了 有些可惜..."
+        }
+      ],
+      "departmentId": "soc"
+    },
+    {
+      "id": "soc310",
+      "code": "SOC310",
+      "name": "Social Enterprise in Asia",
+      "nameCn": "亚洲社会企业",
+      "type": "系外选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Dr. Chung",
+      "language": "粤语",
+      "lastUpdated": "2022-12-21 19:22:17",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 3.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-12",
+          "reviewer": "甲",
+          "grade": "B+",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "小组作业有一个，没有考试，作业不多，但是老师给分很迷"
+        }
+      ],
+      "departmentId": "soc"
+    },
+    {
+      "id": "soc312",
+      "code": "SOC312",
+      "name": "Popular Culture in Asia",
+      "nameCn": "亚洲流行文化",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "曾仲坚",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 11:06:18",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "普扎",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "同学们，选它！老师跟哆啦A梦似的一节课掏出好多视频给我们看，都是很有年代的电影电视片段，上课看三级片不是梦"
+        }
+      ],
+      "departmentId": "soc"
+    },
+    {
+      "id": "soc339",
+      "code": "SOC339",
+      "name": "Sociology of Religion",
+      "nameCn": "宗教社会学",
+      "type": "系内选修（可能有其他所属类型，但尚未有相关信息）",
+      "teacher": "Dr. HUANG, Weishan 黃維珊",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 11:41:00",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 1.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "普扎",
+          "grade": "C+",
+          "rating": 1.0,
+          "teacher": null,
+          "content": "\"宗教是人民的鸦片\"，对于我来说是致命毒药，中伏踩雷了，不要选，这是我本科四年成绩最差最学不懂写论文还因为没看懂老师要求失误了的一门。"
+        }
+      ],
+      "departmentId": "soc"
+    },
+    {
+      "id": "gea101",
+      "code": "GEA101",
+      "name": "Food & Nutrition in Chinese Culture",
+      "nameCn": "中国文化中的食物与营养",
+      "type": "GE课",
+      "teacher": "郑利泉（Dr. Cheng Lee Chuen）",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 02:30:05",
+      "stats": {
+        "reviewCount": 4,
+        "avgRating": 2.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-01",
+          "reviewer": "阿这",
+          "grade": "B",
+          "rating": 2.0,
+          "teacher": null,
+          "content": "整个课程就很迷！老师也是很奇怪，风评不好，而且回邮件也很慢"
+        },
+        {
+          "date": "2021-07-30",
+          "reviewer": "GD",
+          "grade": "B",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "主要内容就是学习中草药效果，研究病例，针对不同病症开出中药方子。平时每两三节课有一份作业，体量不大，较难。给分…我选课之前，包括上第一节课，都说尽量会给A，但是最后给了B，一同上课的小伙伴也没拿A。该课程为GE课程，会有不同专业的同学一起上课，选课时内地同学要做好与local组队的准备。"
+        },
+        {
+          "date": "2021-07-13",
+          "reviewer": "渡迁鸿",
+          "grade": "C+",
+          "rating": 2.0,
+          "teacher": null,
+          "content": "作业多，给分低，中药的英文术语更是傻傻分不清。"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "橘猫",
+          "grade": "B",
+          "rating": 1.0,
+          "teacher": null,
+          "content": "无考试，有三次作业，有小组。通过提问计出勤！！！！用英语和粤语跟你讲中药，反正我是头大了。老师讲的含糊不清，作业打分也有点迷。关键上课昏昏欲睡还通过提问来计出勤，我累了。。。好在最终等级比想象中好一点"
+        }
+      ],
+      "departmentId": "gea"
+    },
+    {
+      "id": "gea104",
+      "code": "GEA104",
+      "name": "Knowing HK Thru Historical Sites",
+      "nameCn": "从古迹认识香港",
+      "type": "GE课",
+      "teacher": "未知，待更新",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 14:08:06",
+      "stats": {
+        "reviewCount": 2,
+        "avgRating": 2.5,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-06-27",
+          "reviewer": "North 30 ゚",
+          "grade": "B",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "一个Pre，一个小组报告，一篇个人论文，有Final（开卷）/疫情线上改成问答题三选二。课程内容以介绍香港的一些古迹为主，穿插历史文化介绍。老师上课很认真，人很好，对内地生比较关照（经常问你能不能听懂），听不懂课后还找你一对一用普通话补课，很用心，可以多去请教他。总之认真学还是可以收获不少东西，但本人粤语实在太差，全靠课件和课后的交流，效率比较低，建议会粤语的同学选。给分的话没有想象中高，可能是因为自己比较菜，老师对作业的要求（个人论文？）还是挺高的吧。"
+        },
+        {
+          "date": "2021-08-01",
+          "reviewer": "可爱小叶",
+          "grade": "C",
+          "rating": 1.0,
+          "teacher": null,
+          "content": "无语 屁事又多又得f2f report得邮寄到香港不然算0分 老师人很有意思会用你名字写诗但是给的分真的好低 没办法f2f作业做的也都不一样那打分就可以名正言顺的低了 真的很下头"
+        }
+      ],
+      "departmentId": "gea"
+    },
+    {
+      "id": "gea109",
+      "code": "GEA109",
+      "name": "Feng Shui and Chinese Culture",
+      "nameCn": "风水与中国文化",
+      "type": "GE课",
+      "teacher": "翁正石",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 01:18:23",
+      "stats": {
+        "reviewCount": 2,
+        "avgRating": 1.5,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-14",
+          "reviewer": "Teresa",
+          "grade": "B",
+          "rating": 2.0,
+          "teacher": null,
+          "content": "很无聊，快点跑，别选它，听说很多人跪在这一科，比如我就是"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "刘二呆",
+          "grade": "D+",
+          "rating": 1.0,
+          "teacher": null,
+          "content": "year1第一学期选的，当时粤语一个字都听不懂。这门课直接gg。 期末考试和pre全程懵逼，强烈不建议新手选"
+        }
+      ],
+      "departmentId": "gea"
+    },
+    {
+      "id": "gea203",
+      "code": "GEA203",
+      "name": "Wisdom of Ancient China Architechture",
+      "nameCn": "中国古代建筑智慧",
+      "type": "GE课",
+      "teacher": "CHEN LEE CHUEN",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 12:36:52",
+      "stats": {
+        "reviewCount": 3,
+        "avgRating": 3.67,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-03",
+          "reviewer": "Daisy",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "讲古代建筑包括内地和香港的特色建筑结构等。有小组pre，有个人paper，平时上课略微有点乏味但是有两次外出活动还是很有趣的，属于认真写paper得分就会很公正的课，高分难得但是b+还蛮好得的。"
+        },
+        {
+          "date": "2021-08-02",
+          "reviewer": "水课爱好者",
+          "grade": "A-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "这个老师我觉得最大的优点就是要求巨细，他会把他想要的点直接列出来发给各位。所以最爽的一点就是，他的论文你不需要构思，按照他的点和框架填内容就行！说实话没认真上过课，因为讲粤语太犯困了，但是就是因为他的点太详细了，你就算不听课，跟着他的点来找资料写论文，照样可以得高分。我当时是一篇论文两天来写，一天写半篇。一学期写了三篇个人论文和一个小组论文，再加一个小组pre。个人感觉压力适中，毕竟可以水他的课上嘛，课下多花点心思，成绩就挺好看的。我最后得了A–，还挺满意，毕竟课上的时间都用来忙活专业课了哈哈哈。"
+        },
+        {
+          "date": "2021-08-01",
+          "reviewer": "tnn",
+          "grade": "B",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "不是非常推荐。课后作业较多，如果粤语基础不是很好的同学上课会很吃力因为老师大部分时间是用粤语授课的。会有一次field trip去志莲净苑。"
+        }
+      ],
+      "departmentId": "gea"
+    },
+    {
+      "id": "geb101",
+      "code": "GEB101",
+      "name": "Digitalization of Communication and Technology in Daily Life",
+      "nameCn": "日常生活中的通信和技术数字化",
+      "type": "GE课",
+      "teacher": "YUK YU YUNG",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 02:18:54",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-01",
+          "reviewer": "tnn",
+          "grade": "B",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "上课内容比较轻松，无期末考，作业较少（约三次课后作业），可以用中文或英文完成作业，无小组作业。老师用粤语授课较多。"
+        }
+      ],
+      "departmentId": "geb"
+    },
+    {
+      "id": "geb102",
+      "code": "GEB102",
+      "name": "Media and Society",
+      "nameCn": "媒体与社会",
+      "type": "GE课",
+      "teacher": "Flora",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 12:19:37",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "GD",
+          "grade": "B+",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "讨论关于性别与社会发展等问题，容易理解，难度系数不大，讲师上课有趣，面授有一定的互动环节。推荐与自己的好朋友一起组队选课。平时没有作业，期末有一个个人作业和一个小组项目。"
+        }
+      ],
+      "departmentId": "geb"
+    },
+    {
+      "id": "geb104",
+      "code": "GEB104",
+      "name": "Reasoning in the Cyber Age",
+      "nameCn": "网络时代的推理",
+      "type": "GE课",
+      "teacher": "Yung Ching Shek",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 02:08:35",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 2.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-31",
+          "reviewer": "某迎风飘扬的青草",
+          "grade": "B-",
+          "rating": 2.0,
+          "teacher": null,
+          "content": "大纲写英文教授，实际上粤语。两次闭卷考，小组pre提问特别细"
+        }
+      ],
+      "departmentId": "geb"
+    },
+    {
+      "id": "geb105",
+      "code": "GEB105",
+      "name": "Communication and Storytelling",
+      "nameCn": "沟通和讲故事",
+      "type": "GE课",
+      "teacher": "未知，等待更新中",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 01:26:31",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-15",
+          "reviewer": "甲",
+          "grade": "A",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "教會了我們很多演講技巧，是很實用的課"
+        }
+      ],
+      "departmentId": "geb"
+    },
+    {
+      "id": "geb106",
+      "code": "GEB106",
+      "name": "Exploring Talents with Media Psy",
+      "nameCn": "使用媒体心理学发掘人才",
+      "type": "GE课",
+      "teacher": "LAI，CH",
+      "language": "粤语、普通话",
+      "lastUpdated": "2022-12-22 13:54:30",
+      "stats": {
+        "reviewCount": 3,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-20",
+          "reviewer": "橙鱼",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "作业量还ok，且比较有趣。无考试。这门课程和大家的生活联系比较紧密，毕竟现在没多少大学生不用社交媒体，所以上课时发言也不会无话可说。我认为这门课主要锻炼的是一种反思能力：当我们在使用社交媒体or玩游戏时，我们收获了什么又失去了什么，类似这种。老师人很好，要求也不严，pre用普通话或者粤语都行，你没准备好老师也会给你多一周准备这样。个人认为同样是有付出就会有回报的一门课，如果你认真，那最后的结果肯定不会差。"
+        },
+        {
+          "date": "2021-08-03",
+          "reviewer": "Daisy",
+          "grade": "B+",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "老师很幽默，课堂氛围很好，课业相当轻松，总体还是很推荐的，但可能由于可供评分的作业评分标准不明确，比较难拿非常高的分数。"
+        },
+        {
+          "date": "2021-07-30",
+          "reviewer": "因为被选修课拉后腿气到现在的甲",
+          "grade": "B",
+          "rating": 2.0,
+          "teacher": null,
+          "content": "emmm，上课可以很水，作业评分也没有具体标准，比我上过的玄学课（阴阳五行还玄，阴阳五行我还拿了A-），如果想要高分，最重要的不是作业质量，而是让他深深记住你😅大乌鱼"
+        }
+      ],
+      "departmentId": "geb"
+    },
+    {
+      "id": "geb107",
+      "code": "GEB107",
+      "name": "Predict Human Behavior with Big Data",
+      "nameCn": "用大数据预测人类行为",
+      "type": "GE课",
+      "teacher": "Dr. Celine Cui",
+      "language": "英语、普通话",
+      "lastUpdated": "2022-12-22 02:12:36",
+      "stats": {
+        "reviewCount": 2,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-01",
+          "reviewer": "可爱小叶",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "作业有点多 但是如果认真做就没问题 不要翘课。老师是内地老师 很温柔而且对每个学生都很认真负责"
+        },
+        {
+          "date": "2021-07-14",
+          "reviewer": "114514",
+          "grade": "B-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "老师是内地人，人很好，不懂得问题可以用普通话问她，pre的选题比较奇怪，会有些难懂，但是可以问老师，然后上课内容还比较有意思，会教你一些r语言来进行数据预测，但是只有皮毛，如果感兴趣的可以深度研究一下。"
+        }
+      ],
+      "departmentId": "geb"
+    },
+    {
+      "id": "geb204",
+      "code": "GEB204",
+      "name": "Writing Your 1st Apps Using Python",
+      "nameCn": "用Python编写您的第一个程序",
+      "type": "GE课",
+      "teacher": "CK Wong",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 14:02:56",
+      "stats": {
+        "reviewCount": 4,
+        "avgRating": 3.25,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-06-24",
+          "reviewer": "韩仆射",
+          "grade": "A",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "无小组作业，每节课都会讲解大作业（就是设计一个app）中的一部分来作为课后作业，老师会演示一遍，所以基本上抄代码就完事了。考试的话有三个，每次考试完都会给前三的发奖，挺尬的。每次还有课堂练习，会算在出勤的分数里。总之这老师给分挺标准的，最后一节课会展示你的各项所得的分数，所以基本没啥异议。这门课就讲python的基础知识，有编程基础的基本乱杀。"
+        },
+        {
+          "date": "2021-08-21",
+          "reviewer": "同学C",
+          "grade": "B",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "没有小组作业，全是独立完成。最终作业是个连连看，这个作业前面的基础编程会分八个部分每周都交一次，他会帮你修改，但是不交也可以。每次上课最后都有五个网上选择题（多选或单选）考你课程内容，就当点名了，成绩会算近最终分。还有三次随堂考试，都是就是程序改错，每次大概40分钟。建议有一定编程基础的报名，反正得分不高，但是自由度很强！"
+        },
+        {
+          "date": "2021-08-02",
+          "reviewer": "普扎",
+          "grade": "B+",
+          "rating": 2.0,
+          "teacher": null,
+          "content": "他真的很多东西搞，从开始到结束有一个project拆分成每个礼拜完成一点，每次上课都有出门测(五道选择题)，然后三次大的课堂测验。还给每个成绩前几的同学发奖牌……看得我特别迷惑。对编程代码这些不敏感的同学别选了，很辛苦"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "橘猫",
+          "grade": "B-",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "老师记出勤、有随堂小测、有一个持续一学期的作业、一学期有三次考试。无小组作业。课就是教你python编程，但个人感觉课堂教我1+1，作业就跟高考数学题。有编程基础的可以冲，无基础且不感兴趣的不建议。"
+        }
+      ],
+      "departmentId": "geb"
+    },
+    {
+      "id": "geb205",
+      "code": "GEB205",
+      "name": "Be a Smart Financial Investor",
+      "nameCn": "做一个聪明的金融投资者",
+      "type": "GE课",
+      "teacher": "Joe, Wang",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22 11:43:49",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "阿G",
+          "grade": "B+",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "课堂主要内容围绕关于投资展开，包括但不限于二级市场股票，债券，基金介绍，对于有投资兴趣的小伙伴来说一定是入门级别的不二之选，老师也会介绍自己的亲身投资经历，老师给分较高，无期末考试，但每节课会有课堂小测可以开卷，都是当天课上的内容。有演讲和期末project自选5只股票标的进行投资和分析。"
+        }
+      ],
+      "departmentId": "geb"
+    },
+    {
+      "id": "gec101",
+      "code": "GEC101",
+      "name": "Environment and Society",
+      "nameCn": "环境与社会",
+      "type": "GE课",
+      "teacher": "Li Hang",
+      "language": "英语",
+      "lastUpdated": "2022-12-22 12:27:30",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "Gentle Z. Lee",
+          "grade": "B+",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "老师纯英语教学，英国本硕博毕业所以英式英语听得很舒服，而且老师长得像马云课程内容简单，讲一些环境社会学的学术概念，内容很少，讲完就小组讨论给分我觉得很好，公正没有期中没有期末总体感觉是非常轻松的一门课，培养人的环保意识，真的算不错的一门课"
+        }
+      ],
+      "departmentId": "gec"
+    },
+    {
+      "id": "gec102",
+      "code": "GEC102",
+      "name": "The Struggling Self in the Global Society",
+      "nameCn": "全球社会中的自我挣扎",
+      "type": "GE课",
+      "teacher": "Dr. Flora Lau",
+      "language": "英语、粤语",
+      "lastUpdated": "2022-12-22 13:49:02",
+      "stats": {
+        "reviewCount": 4,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-20",
+          "reviewer": "橙鱼",
+          "grade": "A",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "关于assignment：整体而言是轻松的。一份小组作业（report+pre），一份个人作业（essay）。课程内容也挺有意思，有很多可供大家讨论的地方，老师也是一直鼓励大家发言，可以用普通话。在写个人essay以及做小组作业的时候，老师都十分欢迎大家去找她讨论，并且也会给出中肯的建议。个人认为是有付出就会有回报的一门课。PS.选对组员成功一半。"
+        },
+        {
+          "date": "2021-07-30",
+          "reviewer": "Renee",
+          "grade": "B+",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "无考试，平时没有作业，只有个人1800-2000的essay和小组的 presentation +report ，上课主要是探讨一些社会话题，老师很爱跟同学互动，给分不错～"
+        },
+        {
+          "date": "2021-07-14",
+          "reviewer": "114514",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "老师人很好，讲的内容也很有意思，pre的选题或有一点点难度，但是可以去询问老师，老师会给很多建议。没有作业，但是会有提问，如果感兴趣的话可以去回答这些问题。"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "橘猫",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "有个人论文、小组pre和report，无考试。老师会通过留问题来看出勤。老师人很好，课程有趣，我觉得是一个只要肯花心思，能拿高分的课。"
+        }
+      ],
+      "departmentId": "gec"
+    },
+    {
+      "id": "gec103",
+      "code": "GEC103",
+      "name": "Crazy, Stupid, Scientific Love",
+      "nameCn": "疯狂、愚蠢、科学的爱情",
+      "type": "GE课",
+      "teacher": "Jason",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 11:10:42",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "阿P",
+          "grade": "B+",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "这门课还是比较推荐听得懂粤语的同学们去选，因为老师整堂课上大部分时间都是粤语，没有考试，有四个小组作业，一个是拍视频自我介绍，第二个就是根据他上课给的五种爱的语言制定一个计划，第三个是写一封情书，第四个是写一篇journal，然后还有一个pre，作业的话，只要把他上课讲到的几个要素都有写到的话，分数都还是不错的，至于pre，尽量讲得有趣一点就行，Jason上课很幽默风趣，能听得懂粤语的，上课不会非常水的，很推荐"
+        }
+      ],
+      "departmentId": "gec"
+    },
+    {
+      "id": "gec106",
+      "code": "GEC106",
+      "name": "Personal Finance and Taxation",
+      "nameCn": "个人财税",
+      "type": "GE课",
+      "teacher": "Dr. Sabrina Xie",
+      "language": "英语、粤语、普通话（备注：英语说一遍，粤语说一遍，普通话说一遍）",
+      "lastUpdated": "2022-12-22 14:10:28",
+      "stats": {
+        "reviewCount": 5,
+        "avgRating": 4.6,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-06-27",
+          "reviewer": "North 30 ゚",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "两个Assignment（基础会计表），一个Pre，一篇个人论文（炒股心得），有Final（开卷，综合问答题）。老师会普通话，人挺好，内地生比较多。课程内容介绍会计基础报表，教授股票、债券、基金、保险等投资理财知识，个人觉得比较实用。课件认真看，模拟交易认真做，难度不大，推荐。"
+        },
+        {
+          "date": "2021-08-04",
+          "reviewer": "小年年",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "有final，但是如果你好好听课的话那对你来说还是很简单滴，有pre，有两三次作业，但是都不难，老师的英语超级标准，普通话也很标准，如果你有听不懂的地方，也是可以用普通话问她的奥"
+        },
+        {
+          "date": "2021-08-04",
+          "reviewer": "嘻嘻",
+          "grade": "A",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "有小组作业，分析一个案例。平时作业不多：一个支票一个股票趋势，挺简单的。期末有考试，当时19年12月是开卷。老师上课用英文根据ppt讲，主要就是一些金融保险方面的基本知识，不难的。"
+        },
+        {
+          "date": "2021-08-01",
+          "reviewer": "tnn",
+          "grade": "A-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "有小组作业，无期中考试，最后一节课有一次小测（开卷不是很难）。老师是内地人，上课大多数时候用英文授课，个别单词会用普通话和粤语重复一遍，人非常耐心。主要讲的是理财相关的基本概念。"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "刘二呆",
+          "grade": "A",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "由于英语说一遍，粤语说一遍，普通话说一遍，所以课程节奏慢，容易犯困。 课程的内容更多是偏向个人理财方向的，想要像二呆同学一样拿高分最好之前有基础（光靠课上的知识可能难在考试中获得好成绩）"
+        }
+      ],
+      "departmentId": "gec"
+    },
+    {
+      "id": "gec108",
+      "code": "GEC108",
+      "name": "Stress Management and Healthy Lifestyle",
+      "nameCn": "压力管理和健康的生活方式",
+      "type": "GE课",
+      "teacher": "Dr. Lufanna LAI",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 14:05:36",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-06-25",
+          "reviewer": "卖花賊",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "还是蛮轻松，因为我听不懂粤语（真的会谢），就是会写一些几千字的东西，然后一个pre 做个ppt，用点心就基本就OK，虽然得分一般"
+        }
+      ],
+      "departmentId": "gec"
+    },
+    {
+      "id": "gec109",
+      "code": "GEC109",
+      "name": "Art, Self-exploration and Sprirtuality",
+      "nameCn": "艺术、自我探索与灵性",
+      "type": "GE课",
+      "teacher": "Dr. Zhou Dehui Ruth",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22 01:32:35",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-30",
+          "reviewer": "ay",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "一定要去上线下的这门课！互动式蛮有趣的hhhh老师很亲切很好交流 会说三语 新来的学弟学妹们可以先选这门课过渡过渡课程内容：会分为授课和创作还有外出三类课授课就是关于艺术 精神 自我探索方面的 创作会有特定的topic 外出就是看一些艺术展览作业：艺术创作 绘画等等给分：（有些迷 因为觉得自己很认真准备了）🥲"
+        }
+      ],
+      "departmentId": "gec"
+    },
+    {
+      "id": "gec110",
+      "code": "GEC110",
+      "name": "Exercise and Wellbeing",
+      "nameCn": "运动与健康",
+      "type": "GE课",
+      "teacher": "龚sir",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 00:47:56",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-13",
+          "reviewer": "哈哈",
+          "grade": "A",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "有小组作业 pre+report/无考试/作业少且简单/给分高"
+        }
+      ],
+      "departmentId": "gec"
+    },
+    {
+      "id": "gec202",
+      "code": "GEC202",
+      "name": "Positive Life W/Chinese Literature",
+      "nameCn": "积极的生活与中国文学",
+      "type": "GE课",
+      "teacher": "NG，KK",
+      "language": "粤语",
+      "lastUpdated": "2022-12-22 12:44:21",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 5.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-03",
+          "reviewer": "空",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "老师人很好也很有耐心，对于粤语不好的同学来说，如果听不懂老师在讲什么上课会略微无聊。有小组作业需要采访，有心意卡小短文要写。老师给分标准很明确，认真完成作业很容易能得到理想的分数。"
+        }
+      ],
+      "departmentId": "gec"
+    },
+    {
+      "id": "ged102",
+      "code": "GED102",
+      "name": "English as a Global Language",
+      "nameCn": "全球语言：英语",
+      "type": "GE课",
+      "teacher": "Dr. Deschrijver Cedric",
+      "language": "英语",
+      "lastUpdated": "2022-12-22 01:29:57",
+      "stats": {
+        "reviewCount": 3,
+        "avgRating": 4.33,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-07-30",
+          "reviewer": "YAYAYA",
+          "grade": "A-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "首先最重要的考试：有期中 无期末作业：常规个人作业 小组作业以及pre老师：外国老师 也很年轻 可以听一个学期纯正英文发音（没有别的意思hhh 课程内容： 大多都是关于 英语作为全球语言的一些发展 各地英语的特点等（内容有些无聊给分：只要认真写作业认真准备小组作业 给分应该不错奥！"
+        },
+        {
+          "date": "2021-07-14",
+          "reviewer": "114514",
+          "grade": "B+",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "课的内容有一点点无聊，老师人很好，非常好，性格很nice，对待学生态度也很好。没有作业，但是有期中考试一篇论文，和期末的pre。建议跟老师处好关系，能拿到比较高的分数，要多跟老师互动。"
+        },
+        {
+          "date": "2021-07-08",
+          "reviewer": "橘猫",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "有期中，有个人作业，有小组，无final，不计出勤老师可以说是我遇到最好的老师之一，一直在鼓励你，不管你说什么都在鼓励你。同样也是觉得，用心可以拿好分的课。"
+        }
+      ],
+      "departmentId": "ged"
+    },
+    {
+      "id": "ged106",
+      "code": "GED106",
+      "name": "Manga and the Modern World",
+      "nameCn": "漫画与现代世界",
+      "type": "GE课",
+      "teacher": "Wan Shun Chuen",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22 12:30:53",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 3.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "吴希贤",
+          "grade": "B+",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "1. 老师人很好\n2. 没有小组作业\n3. 有final（线上改成了paper）\n4. 上课主要是围绕一个主题然后延伸到主题相关的动漫，比如：democracy，这个词语的意思，含义，用相关动漫来讲解。\n5. 课程写作会较多，对写作要求会稍高，写的东西也是偏哲学类，给分还算可以，但是有一定难度系数。\n6. pre的时候可以用普通话还不错！"
+        }
+      ],
+      "departmentId": "ged"
+    },
+    {
+      "id": "ged107",
+      "code": "GED107",
+      "name": "Economics and Sports",
+      "nameCn": "经济与体育",
+      "type": "GE课",
+      "teacher": "Tang Chi Ho",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22 12:33:28",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 4.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-03",
+          "reviewer": "断电皮卡丘",
+          "grade": "A-",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "有小组作业无考试有pre"
+        }
+      ],
+      "departmentId": "ged"
+    },
+    {
+      "id": "ged201",
+      "code": "GED201",
+      "name": "Cultural Insights for Bus Success",
+      "nameCn": "商业成功的文化洞察力",
+      "type": "GE课",
+      "teacher": "沈娜 （SHEN NA），高崇（GAO CHONG）",
+      "language": "英语、粤语、普通话",
+      "lastUpdated": "2022-12-22 12:39:13",
+      "stats": {
+        "reviewCount": 4,
+        "avgRating": 3.5,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2022-06-05",
+          "reviewer": "法商老油条",
+          "grade": "A",
+          "rating": 4.0,
+          "teacher": null,
+          "content": "这门课主要是介绍商业和文化的一些交融之处，非常富有人文气息，上课互动比较多，很有趣。个人觉得对内地生来说较为友好，两个老师都是内地人或是有内地经验，一般解释术语会讲普通话+英文（特别是沈娜老师）。对于作业来说，作业量算是适中，认真写，多与老师交流是拿高分的诀窍；有一个期中考试（应该是沈娜的），这个考试的题目很多都来源于课上所放的一些视频，比较容易记忆；之前沈老师也说过这个考试不是在考学生的记忆力；一般来说上课别迟到，课都听着，也不用太过认真，尽量别错过什么就能解决这个考试。对于pre的作业来说，这门课的两个老师都比较希望学生和观众有一些互动，这是一个较为重要的加分点。总体来说，上课氛围较为轻松，很多让你分小组上台表现的机会，无论当台上的演讲者还是当台下的观众，都是一件轻松愉悦的事情。"
+        },
+        {
+          "date": "2021-08-03",
+          "reviewer": "Daisy",
+          "grade": "A-",
+          "rating": 5.0,
+          "teacher": null,
+          "content": "工商管理系和社会系老师一起开设的课程，每个老师负责半个学期，有paper字数不多，有小组作业有pre有期中考，但是都不难完成，沈老师人美心善给分好，高老师要求相对严格一点。"
+        },
+        {
+          "date": "2021-07-14",
+          "reviewer": "*艺*",
+          "grade": "C+",
+          "rating": 3.0,
+          "teacher": null,
+          "content": "这个课主要讲的就是文化与商业的关系，怎么去相互影响的等等。Shen Na教授每节课上会有一个小讨论，Gao Chong则没有，一学期会有两个小的论文需要写，在期中和期末的时候会有两个考试，但不难。两个老师都是内地的，人很好，上课氛围很轻松，但感觉给分并不怎么好。"
+        },
+        {
+          "date": "2021-07-13",
+          "reviewer": "一位靓仔",
+          "grade": "B-",
+          "rating": 2.0,
+          "teacher": null,
+          "content": "给分不咋行，感觉没有谁的特别高的。但是挺轻松的，李娜上课要求讨论，高崇就比较随便，可以划水。有期中有期末有term paper。"
+        }
+      ],
+      "departmentId": "ged"
+    },
+    {
+      "id": "ged210",
+      "code": "GED210",
+      "name": "Digital Games: Simulatn, Interactivity",
+      "nameCn": "数字游戏：模拟、互动",
+      "type": "GE课",
+      "teacher": "本杰明",
+      "language": "英语",
+      "lastUpdated": "2022-12-22 11:48:59",
+      "stats": {
+        "reviewCount": 1,
+        "avgRating": 1.0,
+        "sd": null,
+        "note": null
+      },
+      "reviews": [
+        {
+          "date": "2021-08-02",
+          "reviewer": "空",
+          "grade": "D",
+          "rating": 1.0,
+          "teacher": null,
+          "content": "傻逼老师 乱给分课程是讲的电子游戏 但是老师乱给分气死我了如果你玩的游戏他不喜欢或者不了解那你就🈚️了"
+        }
+      ],
+      "departmentId": "ged"
+    }
+  ]
+}

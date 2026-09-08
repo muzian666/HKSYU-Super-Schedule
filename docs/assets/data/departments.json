@@ -1,0 +1,775 @@
+{
+  "departments": [
+    {
+      "id": "bus",
+      "code": "BUS",
+      "name": "商学系",
+      "nameEn": "Business",
+      "parent": null,
+      "courseCount": 3,
+      "lastUpdated": "2022-12-23",
+      "courses": [
+        {
+          "id": "bus100",
+          "code": "BUS100",
+          "name": "Introduction to Business",
+          "nameCn": "商业概论",
+          "teacher": "Dr. Na Shen",
+          "rating": 4.0
+        },
+        {
+          "id": "bus350",
+          "code": "BUS350",
+          "name": "Supply Chain Finance",
+          "nameCn": "供应链金融",
+          "teacher": "Dr. Zhou Qiang",
+          "rating": 5.0
+        },
+        {
+          "id": "bus424",
+          "code": "BUS424",
+          "name": "Issues in Business Practice",
+          "nameCn": "商业实践中的问题",
+          "teacher": "Shen Na",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "id": "chi",
+      "code": "CHI",
+      "name": "中文系",
+      "nameEn": "Chinese",
+      "parent": null,
+      "courseCount": 7,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "chi102",
+          "code": "CHI102",
+          "name": "First Year Chinese 2",
+          "nameCn": "语文课 2",
+          "teacher": "伍钧钧",
+          "rating": null
+        },
+        {
+          "id": "chi112",
+          "code": "CHI112",
+          "name": "Shi Ji",
+          "nameCn": "史记",
+          "teacher": "傅承洲",
+          "rating": 5.0
+        },
+        {
+          "id": "chi213",
+          "code": "CHI213",
+          "name": "Shi Jing",
+          "nameCn": "诗经",
+          "teacher": "何祥荣",
+          "rating": 4.0
+        },
+        {
+          "id": "chi273",
+          "code": "CHI273",
+          "name": "General Linguistics",
+          "nameCn": "普通语言学",
+          "teacher": "杨若薇",
+          "rating": 5.0
+        },
+        {
+          "id": "chi290",
+          "code": "CHI290",
+          "name": "Creative Writing",
+          "nameCn": "创意写作",
+          "teacher": "何嘉俊",
+          "rating": 5.0
+        },
+        {
+          "id": "chi323",
+          "code": "CHI323",
+          "name": "Pian Wen",
+          "nameCn": "骈文",
+          "teacher": "何祥荣",
+          "rating": 4.0
+        },
+        {
+          "id": "chi384",
+          "code": "CHI384",
+          "name": "Zuo Zhuan",
+          "nameCn": "左传",
+          "teacher": "段书伟",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "id": "comp",
+      "code": "COMP",
+      "name": "计算机系",
+      "nameEn": "Computer Science",
+      "parent": null,
+      "courseCount": 1,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "comp204",
+          "code": "COMP204",
+          "name": "Web Page Development",
+          "nameCn": "网页开发",
+          "teacher": "C.K.Wong",
+          "rating": 2.0
+        }
+      ]
+    },
+    {
+      "id": "econ",
+      "code": "ECON",
+      "name": "经济系",
+      "nameEn": "Economics",
+      "parent": null,
+      "courseCount": 1,
+      "lastUpdated": "2023-06-30",
+      "courses": [
+        {
+          "id": "econ413",
+          "code": "ECON413",
+          "name": "Mathematical Economics",
+          "nameCn": "数学经济学",
+          "teacher": "Dr. TANG Chi Ho, Edward",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": "eng",
+      "code": "ENG",
+      "name": "英文系",
+      "nameEn": "English",
+      "parent": null,
+      "courseCount": 2,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "eng140",
+          "code": "ENG140",
+          "name": "Introduction to Translation",
+          "nameCn": "翻译导论",
+          "teacher": "Dr. CK.Wong",
+          "rating": 3.0
+        },
+        {
+          "id": "eng212",
+          "code": "ENG212",
+          "name": "English Writing (2)",
+          "nameCn": "英语写作 (2)",
+          "teacher": "Wong",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": "fin",
+      "code": "FIN",
+      "name": "金融系",
+      "nameEn": "Finance",
+      "parent": null,
+      "courseCount": 4,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "fin243",
+          "code": "FIN243",
+          "name": "Money and Banking",
+          "nameCn": "货币和银行业",
+          "teacher": "Joe, Wang",
+          "rating": 1.0
+        },
+        {
+          "id": "fin245",
+          "code": "FIN245",
+          "name": "Introduction to Corporate Finance",
+          "nameCn": "公司金融概论",
+          "teacher": "Joe, Wang",
+          "rating": 1.0
+        },
+        {
+          "id": "fin314",
+          "code": "FIN314",
+          "name": "未知",
+          "nameCn": "未知",
+          "teacher": "Joe, Wang",
+          "rating": 5.0
+        },
+        {
+          "id": "fin349",
+          "code": "FIN349",
+          "name": "Wealth Management and Planning",
+          "nameCn": "财富管理与规划",
+          "teacher": "Tang Chi Ho",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "id": "fren",
+      "code": "FREN",
+      "name": "法语系",
+      "nameEn": "French",
+      "parent": null,
+      "courseCount": 1,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "fren191",
+          "code": "FREN191",
+          "name": "French 1",
+          "nameCn": "法语 1",
+          "teacher": "Serge Galin",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "id": "ge",
+      "code": "GE",
+      "name": "通识课",
+      "nameEn": "General Education",
+      "parent": null,
+      "courseCount": 25,
+      "lastUpdated": null,
+      "courses": []
+    },
+    {
+      "id": "hist",
+      "code": "HIST",
+      "name": "历史系",
+      "nameEn": "History",
+      "parent": null,
+      "courseCount": 3,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "hist100",
+          "code": "HIST100",
+          "name": "General Chinese History",
+          "nameCn": "中国通史",
+          "teacher": "李嫣婷",
+          "rating": 4.0
+        },
+        {
+          "id": "hist241",
+          "code": "HIST241",
+          "name": "From British Colony to SAR",
+          "nameCn": "从英国殖民地到特别行政区",
+          "teacher": "区志坚",
+          "rating": 4.0
+        },
+        {
+          "id": "hist462",
+          "code": "HIST462",
+          "name": "The Making of Modern Japan",
+          "nameCn": "现代日本的形成",
+          "teacher": "周子峰",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": "jour",
+      "code": "JOUR",
+      "name": "新传系",
+      "nameEn": "Journalism",
+      "parent": null,
+      "courseCount": 6,
+      "lastUpdated": "2022-12-23",
+      "courses": [
+        {
+          "id": "jour130",
+          "code": "JOUR130",
+          "name": "Digital Photojournalism",
+          "nameCn": "数字新闻摄影",
+          "teacher": "William Cheung King Ling",
+          "rating": 4.0
+        },
+        {
+          "id": "jour170",
+          "code": "JOUR170",
+          "name": "Visual Communication",
+          "nameCn": "视觉交流",
+          "teacher": "容若愚",
+          "rating": 4.67
+        },
+        {
+          "id": "jour201",
+          "code": "JOUR201",
+          "name": "Audio-Visual Production",
+          "nameCn": "视听制作",
+          "teacher": "Joanna",
+          "rating": 3.0
+        },
+        {
+          "id": "jour250",
+          "code": "JOUR250",
+          "name": "Introduction to Mass Media in China",
+          "nameCn": "中国大众传媒概论",
+          "teacher": "Li Xiaojin",
+          "rating": 5.0
+        },
+        {
+          "id": "jour260",
+          "code": "JOUR260",
+          "name": "Computer Graphic Design & Publishing",
+          "nameCn": "计算机图形设计与出版",
+          "teacher": "Ng Wai Ming Chris",
+          "rating": 4.0
+        },
+        {
+          "id": "jour310",
+          "code": "JOUR310",
+          "name": "Story Telling",
+          "nameCn": "讲故事",
+          "teacher": "Yung, YY",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "code": "LAW",
+      "name": "法律系",
+      "nameEn": "Law",
+      "parent": null,
+      "courseCount": 4,
+      "lastUpdated": "2022-12-23",
+      "courses": [
+        {
+          "id": "law110",
+          "code": "LAW110",
+          "name": "Introduction to Law",
+          "nameCn": "法律概论",
+          "teacher": "林庆舟 Brendan",
+          "rating": 4.0
+        },
+        {
+          "id": "law303",
+          "code": "LAW303",
+          "name": "Criminal Law",
+          "nameCn": "刑法",
+          "teacher": "Oscar TAN",
+          "rating": 3.0
+        },
+        {
+          "id": "law315",
+          "code": "LAW315",
+          "name": "Commercial Law",
+          "nameCn": "商业法",
+          "teacher": "Magnum Ng",
+          "rating": 4.0
+        },
+        {
+          "id": "law324",
+          "code": "LAW324",
+          "name": "Mooting and Advocacy",
+          "nameCn": "模拟和宣传",
+          "teacher": "Brendan Lam",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "id": "mdit",
+      "code": "MDIT",
+      "name": "媒体设计与虚拟现实科技",
+      "nameEn": "Media Design & IT",
+      "parent": null,
+      "courseCount": 2,
+      "lastUpdated": "2023-06-30",
+      "courses": [
+        {
+          "id": "mdit220",
+          "code": "MDIT220",
+          "name": "Understanding VR/AR (Unity 1/ Unreal 1)",
+          "nameCn": "理解VR/AR (Unity 1/ Unreal 1)",
+          "teacher": "Dr. KW Lau",
+          "rating": 4.0
+        },
+        {
+          "id": "mdit320",
+          "code": "MDIT320",
+          "name": "VR/AR App Development (Unreal 2)",
+          "nameCn": "VR/AR App 开发 (Unreal 2)",
+          "teacher": "Dr. KW Lau",
+          "rating": 3.0
+        }
+      ]
+    },
+    {
+      "id": "pe",
+      "code": "PE",
+      "name": "体育",
+      "nameEn": "Physical Education",
+      "parent": null,
+      "courseCount": 1,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "pe104",
+          "code": "PE104",
+          "name": "Physical Education",
+          "nameCn": "体育",
+          "teacher": "未知，有待补充",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "id": "phil",
+      "code": "PHIL",
+      "name": "哲学系",
+      "nameEn": "Philosophy",
+      "parent": null,
+      "courseCount": 1,
+      "lastUpdated": "2022-12-16",
+      "courses": [
+        {
+          "id": "phil113",
+          "code": "PHIL113",
+          "name": "Logic",
+          "nameCn": "逻辑",
+          "teacher": "翁正石",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "id": "pra",
+      "code": "PRA",
+      "name": "公共关系与广告",
+      "nameEn": "PR & Advertising",
+      "parent": null,
+      "courseCount": 1,
+      "lastUpdated": "2023-01-18",
+      "courses": [
+        {
+          "id": "pra200",
+          "code": "PRA200",
+          "name": "Public Relations and the Media",
+          "nameCn": "公共关系和媒体",
+          "teacher": "John LIAUW",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "id": "soc",
+      "code": "SOC",
+      "name": "社会系",
+      "nameEn": "Sociology",
+      "parent": null,
+      "courseCount": 7,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "soc106",
+          "code": "SOC106",
+          "name": "The Art of Reasoning",
+          "nameCn": "推理的艺术",
+          "teacher": "翁正石",
+          "rating": 5.0
+        },
+        {
+          "id": "soc160",
+          "code": "SOC160",
+          "name": "Food and Society",
+          "nameCn": "食物与社会",
+          "teacher": "高崇",
+          "rating": 3.5
+        },
+        {
+          "id": "soc233",
+          "code": "SOC233",
+          "name": "Contemporary Social Issues",
+          "nameCn": "当代社会问题",
+          "teacher": "Miss Mikayla",
+          "rating": 5.0
+        },
+        {
+          "id": "soc255",
+          "code": "SOC255",
+          "name": "Philosophy through Film and Literature",
+          "nameCn": "通过电影和文学了解哲学",
+          "teacher": "Jess",
+          "rating": 5.0
+        },
+        {
+          "id": "soc310",
+          "code": "SOC310",
+          "name": "Social Enterprise in Asia",
+          "nameCn": "亚洲社会企业",
+          "teacher": "Dr. Chung",
+          "rating": 3.0
+        },
+        {
+          "id": "soc312",
+          "code": "SOC312",
+          "name": "Popular Culture in Asia",
+          "nameCn": "亚洲流行文化",
+          "teacher": "曾仲坚",
+          "rating": 5.0
+        },
+        {
+          "id": "soc339",
+          "code": "SOC339",
+          "name": "Sociology of Religion",
+          "nameCn": "宗教社会学",
+          "teacher": "Dr. HUANG, Weishan 黃維珊",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "id": "gea",
+      "code": "GEA",
+      "name": "通识课 A 类",
+      "nameEn": "GE Category A",
+      "parent": "ge",
+      "courseCount": 4,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "gea101",
+          "code": "GEA101",
+          "name": "Food & Nutrition in Chinese Culture",
+          "nameCn": "中国文化中的食物与营养",
+          "teacher": "郑利泉（Dr. Cheng Lee Chuen）",
+          "rating": 2.0
+        },
+        {
+          "id": "gea104",
+          "code": "GEA104",
+          "name": "Knowing HK Thru Historical Sites",
+          "nameCn": "从古迹认识香港",
+          "teacher": "未知，待更新",
+          "rating": 2.5
+        },
+        {
+          "id": "gea109",
+          "code": "GEA109",
+          "name": "Feng Shui and Chinese Culture",
+          "nameCn": "风水与中国文化",
+          "teacher": "翁正石",
+          "rating": 1.5
+        },
+        {
+          "id": "gea203",
+          "code": "GEA203",
+          "name": "Wisdom of Ancient China Architechture",
+          "nameCn": "中国古代建筑智慧",
+          "teacher": "CHEN LEE CHUEN",
+          "rating": 3.67
+        }
+      ]
+    },
+    {
+      "id": "geb",
+      "code": "GEB",
+      "name": "通识课 B 类",
+      "nameEn": "GE Category B",
+      "parent": "ge",
+      "courseCount": 8,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "geb101",
+          "code": "GEB101",
+          "name": "Digitalization of Communication and Technology in Daily Life",
+          "nameCn": "日常生活中的通信和技术数字化",
+          "teacher": "YUK YU YUNG",
+          "rating": 4.0
+        },
+        {
+          "id": "geb102",
+          "code": "GEB102",
+          "name": "Media and Society",
+          "nameCn": "媒体与社会",
+          "teacher": "Flora",
+          "rating": 5.0
+        },
+        {
+          "id": "geb104",
+          "code": "GEB104",
+          "name": "Reasoning in the Cyber Age",
+          "nameCn": "网络时代的推理",
+          "teacher": "Yung Ching Shek",
+          "rating": 2.0
+        },
+        {
+          "id": "geb105",
+          "code": "GEB105",
+          "name": "Communication and Storytelling",
+          "nameCn": "沟通和讲故事",
+          "teacher": "未知，等待更新中",
+          "rating": 4.0
+        },
+        {
+          "id": "geb106",
+          "code": "GEB106",
+          "name": "Exploring Talents with Media Psy",
+          "nameCn": "使用媒体心理学发掘人才",
+          "teacher": "LAI，CH",
+          "rating": 4.0
+        },
+        {
+          "id": "geb107",
+          "code": "GEB107",
+          "name": "Predict Human Behavior with Big Data",
+          "nameCn": "用大数据预测人类行为",
+          "teacher": "Dr. Celine Cui",
+          "rating": 4.0
+        },
+        {
+          "id": "geb204",
+          "code": "GEB204",
+          "name": "Writing Your 1st Apps Using Python",
+          "nameCn": "用Python编写您的第一个程序",
+          "teacher": "CK Wong",
+          "rating": 3.25
+        },
+        {
+          "id": "geb205",
+          "code": "GEB205",
+          "name": "Be a Smart Financial Investor",
+          "nameCn": "做一个聪明的金融投资者",
+          "teacher": "Joe, Wang",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "id": "gec",
+      "code": "GEC",
+      "name": "通识课 C 类",
+      "nameEn": "GE Category C",
+      "parent": "ge",
+      "courseCount": 8,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "gec101",
+          "code": "GEC101",
+          "name": "Environment and Society",
+          "nameCn": "环境与社会",
+          "teacher": "Li Hang",
+          "rating": 5.0
+        },
+        {
+          "id": "gec102",
+          "code": "GEC102",
+          "name": "The Struggling Self in the Global Society",
+          "nameCn": "全球社会中的自我挣扎",
+          "teacher": "Dr. Flora Lau",
+          "rating": 5.0
+        },
+        {
+          "id": "gec103",
+          "code": "GEC103",
+          "name": "Crazy, Stupid, Scientific Love",
+          "nameCn": "疯狂、愚蠢、科学的爱情",
+          "teacher": "Jason",
+          "rating": 5.0
+        },
+        {
+          "id": "gec106",
+          "code": "GEC106",
+          "name": "Personal Finance and Taxation",
+          "nameCn": "个人财税",
+          "teacher": "Dr. Sabrina Xie",
+          "rating": 4.6
+        },
+        {
+          "id": "gec108",
+          "code": "GEC108",
+          "name": "Stress Management and Healthy Lifestyle",
+          "nameCn": "压力管理和健康的生活方式",
+          "teacher": "Dr. Lufanna LAI",
+          "rating": 4.0
+        },
+        {
+          "id": "gec109",
+          "code": "GEC109",
+          "name": "Art, Self-exploration and Sprirtuality",
+          "nameCn": "艺术、自我探索与灵性",
+          "teacher": "Dr. Zhou Dehui Ruth",
+          "rating": 4.0
+        },
+        {
+          "id": "gec110",
+          "code": "GEC110",
+          "name": "Exercise and Wellbeing",
+          "nameCn": "运动与健康",
+          "teacher": "龚sir",
+          "rating": 5.0
+        },
+        {
+          "id": "gec202",
+          "code": "GEC202",
+          "name": "Positive Life W/Chinese Literature",
+          "nameCn": "积极的生活与中国文学",
+          "teacher": "NG，KK",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "id": "ged",
+      "code": "GED",
+      "name": "通识课 D 类",
+      "nameEn": "GE Category D",
+      "parent": "ge",
+      "courseCount": 5,
+      "lastUpdated": "2022-12-22",
+      "courses": [
+        {
+          "id": "ged102",
+          "code": "GED102",
+          "name": "English as a Global Language",
+          "nameCn": "全球语言：英语",
+          "teacher": "Dr. Deschrijver Cedric",
+          "rating": 4.33
+        },
+        {
+          "id": "ged106",
+          "code": "GED106",
+          "name": "Manga and the Modern World",
+          "nameCn": "漫画与现代世界",
+          "teacher": "Wan Shun Chuen",
+          "rating": 3.0
+        },
+        {
+          "id": "ged107",
+          "code": "GED107",
+          "name": "Economics and Sports",
+          "nameCn": "经济与体育",
+          "teacher": "Tang Chi Ho",
+          "rating": 4.0
+        },
+        {
+          "id": "ged201",
+          "code": "GED201",
+          "name": "Cultural Insights for Bus Success",
+          "nameCn": "商业成功的文化洞察力",
+          "teacher": "沈娜、高崇",
+          "rating": 3.5
+        },
+        {
+          "id": "ged210",
+          "code": "GED210",
+          "name": "Digital Games: Simulatn, Interactivity",
+          "nameCn": "数字游戏：模拟、互动",
+          "teacher": "本杰明",
+          "rating": 1.0
+        }
+      ]
+    }
+  ]
+}
