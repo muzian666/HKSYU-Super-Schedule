@@ -1,6 +1,8 @@
 site_name: 大小姐的杂货铺
-site_description: 香港树仁大学课程评价平台
+site_description: 香港树仁大学（HKSYU）课程评价平台「超级课程表」——真实学长学姐的课程评分、给分情况与选课建议，涵盖商学、计算机、新闻传播等 15 个学系与通识课程。
+site_author: HKSYU Students
 site_url: https://www.pass3exceed4.com
+copyright: Copyright &copy; 2022-present HKSYU Students
 
 theme:
   name: material
@@ -33,7 +35,8 @@ theme:
   favicon: assets/images/basicprofile.jpeg
 
 extra_css:
-  - assets/stylesheets/extra.css
+  # ?v= 用于样式更新后失效浏览器缓存
+  - assets/stylesheets/extra.css?v=20260908
 
 extra_javascript:
   - assets/javascripts/site-config.js
@@ -46,11 +49,15 @@ plugins:
         - en
         - ja
   - awesome-pages
+  # SEO：为缺少 frontmatter description 的页面自动生成 meta description
+  - meta-descriptions:
+      export_csv: false
 
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.details
   - tables
   - toc:
       permalink: true

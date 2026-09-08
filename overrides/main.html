@@ -1,0 +1,116 @@
+{#-
+  SEO 增强：页面标题优化 + Open Graph / Twitter Card + JSON-LD 结构化数据
+-#}
+{% extends "base.html" %}
+
+{#- 首页标题补充关键词，其余页面保持 Material 默认格式 -#}
+{% block htmltitle %}
+  {% if page and page.is_homepage %}
+    <title>超级课程表 | 香港树仁大学课程评价平台 - HKSYU 选课评价与课程评分</title>
+  {% elif page and page.meta and page.meta.title %}
+    <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+  {% elif page and page.title %}
+    <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
+{% block extrahead %}
+  {#- 浏览器地址栏配色（跟随明暗主题） -#}
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f1117">
+
+  {#- 页面描述：优先 frontmatter，回退到首段（meta 插件）或站点描述 -#}
+  {% set page_desc = config.site_description %}
+  {% if page and page.meta and page.meta.description %}
+    {% set page_desc = page.meta.description %}
+  {% endif %}
+
+  {#- 页面标题（与 htmltitle 逻辑一致） -#}
+  {% if page and page.is_homepage %}
+    {% set page_title = "超级课程表 | 香港树仁大学课程评价平台" %}
+  {% elif page and page.meta and page.meta.title %}
+    {% set page_title = page.meta.title ~ " - " ~ config.site_name %}
+  {% elif page and page.title %}
+    {% set page_title = page.title | striptags ~ " - " ~ config.site_name %}
+  {% else %}
+    {% set page_title = config.site_name %}
+  {% endif %}
+
+  {#- 社交分享图片（绝对地址） -#}
+  {% set og_image = config.site_url ~ 'assets/images/og-image.png' %}
+
+  {#- Open Graph -#}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ page_title }}">
+  {% if page_desc %}
+    <meta property="og:description" content="{{ page_desc }}">
+  {% endif %}
+  {% if page and page.canonical_url %}
+    <meta property="og:url" content="{{ page.canonical_url }}">
+  {% endif %}
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ config.site_name }} - {{ config.site_description }}">
+  <meta property="og:locale" content="zh_CN">
+
+  {#- Twitter Card -#}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title }}">
+  {% if page_desc %}
+    <meta name="twitter:description" content="{{ page_desc }}">
+  {% endif %}
+  <meta name="twitter:image" content="{{ og_image }}">
+
+  {#- JSON-LD：首页 WebSite，内页 BreadcrumbList（跳过没有独立 URL 的 section） -#}
+  {% if page and page.is_homepage %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "超级课程表",
+      "alternateName": "{{ config.site_name }}",
+      "url": "{{ config.site_url }}",
+      "description": "{{ config.site_description }}",
+      "inLanguage": "zh",
+      "publisher": {
+        "@type": "Organization",
+        "name": "HKSYU Students",
+        "url": "{{ config.site_url }}"
+      }
+    }
+    </script>
+  {% elif page %}
+    {% set ns = namespace(pos=1) %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "{{ config.site_url }}"
+        }{% for item in page.ancestors %}{% if item.url %}{% set ns.pos = ns.pos + 1 %},
+        {
+          "@type": "ListItem",
+          "position": {{ ns.pos }},
+          "name": "{{ item.title | striptags if item.title else item.file.src_uri | striptags }}",
+          "item": "{{ config.site_url }}{{ item.url }}"
+        }{% endif %}{% endfor %}{% if page.title %}{% set ns.pos = ns.pos + 1 %},
+        {
+          "@type": "ListItem",
+          "position": {{ ns.pos }},
+          "name": "{{ page.title | striptags }}",
+          "item": "{{ page.canonical_url }}"
+        }
+        {% endif %}
+      ]
+    }
+    </script>
+  {% endif %}
+{% endblock %}

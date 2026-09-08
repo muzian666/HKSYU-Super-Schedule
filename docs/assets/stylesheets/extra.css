@@ -1,125 +1,229 @@
-/* ========================================
-   GitBook (wordbook) Style for MkDocs Material
-   精确还原 pass3exceed4.com 的配色和字体
-   ======================================== */
+/* ==========================================================
+   现代化 UI for MkDocs Material
+   设计语言：清爽留白 / 柔和圆角 / 靛蓝主色 / 明暗双主题
+   注意：--gb-* 变量名被页面内联样式引用，请勿改名
+   ========================================================== */
 
-/* --- Light Mode (Default GitBook) --- */
+/* --- Design tokens: Light --- */
 :root {
-  /* Sidebar - transparent to match content bg */
+  --gb-accent: #4f46e5;
+  --gb-accent-hover: #6366f1;
+  --gb-accent-soft: rgba(79, 70, 229, 0.08);
+  --gb-btn-hover: #4338ca;
+
   --gb-sidebar-bg: transparent;
-  --gb-sidebar-text: #333333;
-  --gb-sidebar-link: #364149;
-  --gb-sidebar-active: #704214;
-  --gb-sidebar-header: #939da3;
+  --gb-sidebar-text: #475569;
+  --gb-sidebar-link: #475569;
+  --gb-sidebar-active: var(--gb-accent);
+  --gb-sidebar-header: #94a3b8;
   --gb-sidebar-search-bg: transparent;
-  --gb-sidebar-divider: #e7e7e7;
+  --gb-sidebar-divider: #e2e8f0;
 
-  /* Content - white bg, dark text (default GitBook) */
   --gb-content-bg: #ffffff;
-  --gb-content-text: #333333;
-  --gb-content-heading: #1a1a1a;
-  --gb-link-color: #4183c4;
-  --gb-link-hover-color: #4183c4;
+  --gb-content-text: #334155;
+  --gb-content-heading: #0f172a;
+  --gb-link-color: var(--gb-accent);
+  --gb-link-hover-color: var(--gb-accent-hover);
+  --gb-text-muted: #64748b;
 
-  /* Tables */
-  --gb-table-border: #ddd;
+  --gb-table-border: #e2e8f0;
   --gb-table-row: #ffffff;
-  --gb-table-row-alt: #f8f8f8;
+  --gb-table-row-alt: #f8fafc;
+  --gb-table-head: #f1f5f9;
 
-  /* Code */
-  --gb-code-bg: #f7f7f7;
-  --gb-code-border: #e0e0e0;
-  --gb-code-text: inherit;
+  --gb-code-bg: #f1f5f9;
+  --gb-code-border: #e2e8f0;
+  --gb-code-text: #334155;
 
-  /* Blockquote */
-  --gb-blockquote-border: #e5e5e5;
-  --gb-blockquote-text: #858585;
+  --gb-blockquote-border: #c7d2fe;
+  --gb-blockquote-text: #475569;
 
-  /* HR */
-  --gb-hr: #e7e7e7;
+  --gb-hr: #e2e8f0;
 
-  /* Header */
-  --gb-header-bg: #ffffff;
-  --gb-header-text: #7e888b;
-  --gb-header-title: #333333;
+  --gb-header-bg: rgba(255, 255, 255, 0.82);
+  --gb-header-text: #64748b;
+  --gb-header-title: #0f172a;
 
-  /* Star */
-  --gb-star: #e8a735;
+  --gb-star: #f59e0b;
 
-  /* Review card */
-  --gb-card-bg: #f8f8f8;
-  --gb-card-border: #e0e0e0;
-  --gb-card-shadow: rgba(0, 0, 0, 0.06);
+  --gb-card-bg: #ffffff;
+  --gb-card-border: #e2e8f0;
+  --gb-card-shadow: rgba(15, 23, 42, 0.06);
+  --gb-card-shadow-hover: rgba(79, 70, 229, 0.12);
 }
 
-/* --- Theme 2: Dark (Dark Mode) --- */
+/* --- Design tokens: Dark --- */
 [data-md-color-scheme="slate"] {
+  --gb-accent: #818cf8;
+  --gb-accent-hover: #a5b4fc;
+  --gb-accent-soft: rgba(129, 140, 248, 0.12);
+  --gb-btn-hover: #6366f1;
+
   --gb-sidebar-bg: transparent;
-  --gb-sidebar-text: #bdcadb;
-  --gb-sidebar-link: #bdcadb;
-  --gb-sidebar-active: #3eb1d0;
-  --gb-sidebar-header: #788da3;
+  --gb-sidebar-text: #94a3b8;
+  --gb-sidebar-link: #94a3b8;
+  --gb-sidebar-active: var(--gb-accent);
+  --gb-sidebar-header: #64748b;
   --gb-sidebar-search-bg: transparent;
-  --gb-sidebar-divider: #3a3f54;
+  --gb-sidebar-divider: #272e40;
 
-  --gb-content-bg: #1c1f2b;
-  --gb-content-text: #bdcadb;
-  --gb-content-heading: #fffffa;
-  --gb-link-color: #3eb1d0;
-  --gb-link-hover-color: #5cc8e0;
+  --gb-content-bg: #0f1117;
+  --gb-content-text: #b6c2d6;
+  --gb-content-heading: #f1f5f9;
+  --gb-link-color: var(--gb-accent);
+  --gb-link-hover-color: var(--gb-accent-hover);
+  --gb-text-muted: #7c8aa0;
 
-  --gb-table-border: #3b3f54;
-  --gb-table-row: #2d3143;
-  --gb-table-row-alt: #35394b;
+  --gb-table-border: #272e40;
+  --gb-table-row: #161a24;
+  --gb-table-row-alt: #1a1f2c;
+  --gb-table-head: #1a1f2c;
 
-  --gb-code-bg: #2d3143;
-  --gb-code-border: #2d3143;
-  --gb-code-text: #9dbed8;
+  --gb-code-bg: #1a1f2c;
+  --gb-code-border: #272e40;
+  --gb-code-text: #a5c8e1;
 
-  --gb-blockquote-border: #373b4e;
-  --gb-blockquote-text: inherit;
+  --gb-blockquote-border: #3730a3;
+  --gb-blockquote-text: #94a3b8;
 
-  --gb-hr: #373b4e;
+  --gb-hr: #272e40;
 
-  --gb-header-bg: transparent;
-  --gb-header-text: #7e888b;
-  --gb-header-title: #bdcadb;
+  --gb-header-bg: rgba(15, 17, 23, 0.8);
+  --gb-header-text: #8b98ad;
+  --gb-header-title: #f1f5f9;
 
-  --gb-star: #f0c040;
+  --gb-star: #fbbf24;
 
-  --gb-card-bg: #252838;
-  --gb-card-border: #3b3f54;
-  --gb-card-shadow: rgba(0, 0, 0, 0.2);
+  --gb-card-bg: #161a24;
+  --gb-card-border: #272e40;
+  --gb-card-shadow: rgba(0, 0, 0, 0.25);
+  --gb-card-shadow-hover: rgba(0, 0, 0, 0.4);
+}
+
+/* --- Material variable bridging --- */
+:root {
+  --md-default-bg-color: var(--gb-content-bg);
+  --md-primary-fg-color: var(--gb-content-bg);
+  --md-primary-bg-color: var(--gb-content-heading);
+  --md-footer-bg-color: var(--gb-content-bg);
+  --md-accent-fg-color: var(--gb-accent);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: var(--gb-content-bg);
+  --md-primary-fg-color: var(--gb-content-bg);
+  --md-primary-bg-color: var(--gb-content-heading);
+  --md-footer-bg-color: var(--gb-content-bg);
 }
 
 /* ===================================
    Global / Body
-   Override Material's CSS custom properties for header/footer
    =================================== */
-:root {
-  --md-default-bg-color: #ffffff;
-  --md-primary-fg-color: #ffffff;
-  --md-primary-bg-color: #333333;
-  --md-footer-bg-color: #ffffff;
-}
-
-[data-md-color-scheme="slate"] {
-  --md-default-bg-color: #1c1f2b;
-  --md-primary-fg-color: #1c1f2b;
-  --md-primary-bg-color: #bdcadb;
-  --md-footer-bg-color: #1c1f2b;
-}
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue",
+    Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 14px !important;
+  font-size: 15px !important;
+  letter-spacing: 0.1px;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--gb-accent-soft);
+}
+
+/* Subtle scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gb-card-border);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--gb-text-muted);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Accessible focus */
+.md-typeset a:focus-visible,
+.md-nav__link:focus-visible,
+.md-header__button:focus-visible {
+  outline: 2px solid var(--gb-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ===================================
+   Header / Top Bar — frosted glass
+   =================================== */
+.md-header {
+  background-color: var(--gb-header-bg) !important;
+  backdrop-filter: blur(14px) saturate(1.6);
+  -webkit-backdrop-filter: blur(14px) saturate(1.6);
+  color: var(--gb-header-text) !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid var(--gb-card-border);
+  height: 56px;
+  overflow: visible !important;
+  z-index: 10 !important;
+}
+
+.md-header__inner {
+  background-color: transparent !important;
+}
+
+.md-header[data-md-state="shadow"] {
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header[data-md-state="shadow"] {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35) !important;
+}
+
+.md-header__title {
+  font-size: 17px;
+  font-weight: 600;
   letter-spacing: 0.2px;
+  color: var(--gb-header-title) !important;
+  opacity: 1;
+}
+
+.md-header__button {
+  color: var(--gb-header-text) !important;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.md-header__button:hover {
+  color: var(--gb-accent) !important;
+  background: var(--gb-accent-soft);
+}
+
+.md-header__button.md-logo img {
+  height: 26px !important;
+  width: auto !important;
+  border-radius: 6px;
+}
+
+.md-header__button.md-logo {
+  margin-right: 6px !important;
+}
+
+/* Hide the tabs bar */
+.md-tabs {
+  display: none !important;
 }
 
 /* ===================================
    Sidebar (Left Navigation)
-   GitBook dark sidebar #111111
    =================================== */
 .md-sidebar--primary {
   background-color: var(--gb-sidebar-bg) !important;
@@ -131,7 +235,7 @@ body {
   padding: 0;
 }
 
-/* Hide sidebar site title "大小姐的杂货铺" */
+/* Hide sidebar site title block */
 .md-sidebar--primary .md-nav--primary > label.md-nav__title {
   display: none !important;
   height: 0 !important;
@@ -142,45 +246,46 @@ body {
   visibility: hidden !important;
 }
 
-/* Remove top spacing in sidebar */
 .md-sidebar--primary .md-nav--primary {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
 
 .md-sidebar--primary .md-nav--primary > .md-nav__list {
-  padding-top: 0 !important;
+  padding-top: 0.4rem !important;
   margin-top: 0 !important;
 }
 
-/* Nav items - GitBook flat style */
+/* Nav items — rounded pill style */
+.md-sidebar--primary .md-nav__item {
+  padding: 1px 10px;
+}
+
 .md-sidebar--primary .md-nav__link {
   color: var(--gb-sidebar-link) !important;
   font-size: 14px;
   font-weight: 400;
-  padding: 10px 15px;
-  border-radius: 0;
-  transition: none;
+  padding: 7px 10px;
+  border-radius: 8px;
+  transition: background-color 0.15s ease, color 0.15s ease;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .md-sidebar--primary .md-nav__link:hover {
   color: var(--gb-sidebar-active) !important;
-  background: transparent;
-  text-decoration: underline;
+  background: var(--gb-accent-soft);
+  text-decoration: none;
 }
 
 /* Active nav item */
-.md-sidebar--primary .md-nav__link--active {
+.md-sidebar--primary .md-nav__link--active,
+.md-sidebar--primary .md-nav__link[data-md-state="active"] {
   color: var(--gb-sidebar-active) !important;
-  font-weight: 400;
-  background: transparent;
-  border-left: none;
-  padding-left: 15px;
-  text-decoration: none;
+  font-weight: 500;
+  background: var(--gb-accent-soft);
 }
 
 /* Nested nav items (course list under department) */
@@ -189,22 +294,27 @@ body {
 }
 
 .md-sidebar--primary .md-nav--secondary .md-nav__link {
-  font-size: 14px;
-  padding-left: 35px;
+  font-size: 13.5px;
+  padding-left: 34px;
 }
 
-.md-sidebar--primary .md-nav--secondary .md-nav__link--active {
-  padding-left: 35px;
+.md-sidebar--primary .md-nav--secondary .md-nav__link--active,
+.md-sidebar--primary .md-nav--secondary .md-nav__link[data-md-state="active"] {
+  padding-left: 34px;
 }
 
 /* Nav section headers (external links label etc) */
 .md-sidebar--primary .md-nav__item--section > .md-nav__link {
   color: var(--gb-sidebar-header) !important;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 11.5px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  padding: 20px 15px 10px;
+  letter-spacing: 0.8px;
+  padding: 20px 10px 8px;
+}
+
+.md-sidebar--primary .md-nav__item--section > .md-nav__link:hover {
+  background: transparent;
 }
 
 /* Expand/collapse toggles */
@@ -213,98 +323,13 @@ body {
 }
 
 /* ===================================
-   Header / Top Bar
-   Same bg as content, with subtle shadow
-   =================================== */
-.md-header {
-  background-color: var(--gb-content-bg) !important;
-  color: var(--gb-header-text) !important;
-  box-shadow: none !important;
-  border-bottom: none;
-  height: 50px;
-  overflow: visible !important;
-  z-index: 10 !important;
-}
-
-/* Shadow via pseudo-element - bypasses box-shadow stacking issues */
-.md-header::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -4px;
-  height: 4px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.08), transparent);
-  pointer-events: none;
-  z-index: 10;
-}
-
-.md-header[data-md-state="shadow"]::after {
-  height: 6px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent);
-}
-
-/* Force header inner elements to use same bg */
-.md-header__inner {
-  background-color: var(--gb-content-bg) !important;
-  overflow: visible !important;
-}
-
-/* Fix shadow clipped by md-grid at wide viewports */
-.md-header__inner.md-grid {
-  overflow: visible !important;
-}
-
-.md-header[data-md-state="shadow"] {
-  background-color: var(--gb-content-bg) !important;
-  box-shadow: none !important;
-}
-
-.md-header__title {
-  font-size: 20px;
-  font-weight: 200;
-  color: var(--gb-header-title) !important;
-  opacity: 1;
-}
-
-.md-header__button {
-  color: var(--gb-header-text) !important;
-}
-
-/* Logo in header - larger size */
-.md-header__button.md-logo img {
-  height: 24px !important;
-  width: auto !important;
-}
-
-/* Tighten gap between logo and site title */
-.md-header__button.md-logo {
-  margin-right: 4px !important;
-}
-
-.md-header__button:hover {
-  color: var(--gb-sidebar-active) !important;
-}
-
-[data-md-color-scheme="slate"] .md-header {
-  background-color: var(--gb-content-bg) !important;
-}
-
-/* Hide the tabs bar */
-.md-tabs {
-  display: none !important;
-}
-
-/* ===================================
    Content Area
-   GitBook warm paper background
    =================================== */
 .md-main {
   background-color: var(--gb-content-bg);
   padding-top: 0 !important;
 }
 
-/* Tighten gap between header and content */
 .md-sidebar {
   padding-top: 0 !important;
 }
@@ -320,68 +345,75 @@ body {
 .md-content__inner {
   max-width: none;
   margin: 0;
-  padding: 20px 24px 40px;
+  padding: 28px 32px 56px;
 }
 
 /* ===================================
-   Typography - match GitBook markdown-section
+   Typography
    =================================== */
 .md-typeset {
   color: var(--gb-content-text);
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 15px;
+  line-height: 1.75;
 }
 
 .md-typeset h1 {
   color: var(--gb-content-heading);
-  font-size: 2em;
-  font-weight: 700;
+  font-size: 2.1em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   border-bottom: none;
   padding-bottom: 0;
-  margin-top: 1.275em;
-  margin-bottom: 0.85em;
+  margin-top: 0.9em;
+  margin-bottom: 0.7em;
+  line-height: 1.3;
 }
 
 .md-typeset h2 {
   color: var(--gb-content-heading);
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: 700;
+  letter-spacing: -0.01em;
   border-bottom: none;
   padding-bottom: 0;
-  margin-top: 1.275em;
-  margin-bottom: 0.85em;
+  margin-top: 1.6em;
+  margin-bottom: 0.7em;
+  line-height: 1.4;
 }
 
 .md-typeset h3 {
   color: var(--gb-content-heading);
-  font-size: 1.5em;
+  font-size: 1.22em;
   font-weight: 700;
-  margin-top: 1.275em;
-  margin-bottom: 0.85em;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
 }
 
 .md-typeset h4 {
-  font-size: 1.25em;
+  font-size: 1.08em;
   font-weight: 700;
+  color: var(--gb-content-heading);
 }
 
 .md-typeset p {
   margin-top: 0;
-  margin-bottom: 0.85em;
+  margin-bottom: 0.9em;
 }
 
 /* ===================================
    Links
-   GitBook #4183c4 blue
    =================================== */
 .md-typeset a {
   color: var(--gb-link-color);
   text-decoration: none;
-  background: transparent;
+  transition: color 0.15s ease;
 }
 
 .md-typeset a:hover {
+  color: var(--gb-link-hover-color);
   text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
 }
 
 .md-typeset a:focus {
@@ -390,20 +422,18 @@ body {
 
 /* ===================================
    Horizontal Rules
-   GitBook thick #e7e7e7 lines
    =================================== */
 .md-typeset hr {
-  height: 4px;
+  height: 1px;
   padding: 0;
-  margin: 1.7em 0;
+  margin: 2em 0;
   overflow: hidden;
   background-color: var(--gb-hr);
   border: none;
 }
 
 /* ===================================
-   Tables
-   GitBook warm-toned tables
+   Tables — flat rounded style
    =================================== */
 .md-typeset table {
   display: table;
@@ -412,100 +442,150 @@ body {
   border-spacing: 0;
   overflow: hidden;
   font-size: 14px;
-  border-radius: 6px;
+  border-radius: 8px;
   border: 1px solid var(--gb-table-border);
 }
 
 .md-typeset table th {
-  font-weight: 700;
-  padding: 6px 13px;
-  border: 1px solid var(--gb-table-border);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--gb-content-heading);
+  padding: 10px 14px;
+  background-color: var(--gb-table-head);
+  border-bottom: 1px solid var(--gb-table-border);
 }
 
 .md-typeset table td {
-  padding: 6px 13px;
-  border: 1px solid var(--gb-table-border);
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--gb-table-border);
+  border-left: none;
 }
 
 .md-typeset table tr {
   background-color: var(--gb-table-row);
-  border-top: 1px solid var(--gb-table-border);
+  transition: background-color 0.15s ease;
 }
 
 .md-typeset table tr:nth-child(2n) {
+  background-color: var(--gb-table-row);
+}
+
+.md-typeset table tr:hover {
   background-color: var(--gb-table-row-alt);
+}
+
+.md-typeset table tr:last-child td {
+  border-bottom: none;
 }
 
 /* ===================================
    Blockquotes
-   GitBook style: left border, muted text
    =================================== */
 .md-typeset blockquote {
-  margin: 0 0 0.85em;
-  padding: 0 15px;
+  margin: 0 0 0.9em;
+  padding: 10px 18px;
   color: var(--gb-blockquote-text);
-  border-left: 4px solid var(--gb-blockquote-border);
+  border-left: 3px solid var(--gb-blockquote-border);
+  border-radius: 0 8px 8px 0;
+  background: var(--gb-accent-soft);
   font-style: normal;
-  background: transparent;
+}
+
+.md-typeset blockquote p {
+  margin: 0.2em 0;
 }
 
 /* ===================================
    Code
-   GitBook warm code blocks
    =================================== */
 .md-typeset code {
-  padding: 0.2em;
+  padding: 0.15em 0.4em;
   margin: 0;
   font-size: 0.85em;
   background-color: var(--gb-code-bg);
-  border-radius: 3px;
+  border: 1px solid var(--gb-code-border);
+  border-radius: 6px;
   color: var(--gb-code-text);
 }
 
 .md-typeset pre {
   background: var(--gb-code-bg);
   border: 1px solid var(--gb-code-border);
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
-.md-typeset pre code {
+.md-typeset pre > code {
   background: transparent;
+  border: none;
   color: var(--gb-code-text);
 }
 
 /* ===================================
-   Admonitions (Material warning/info boxes)
-   Tone them down to match GitBook
+   Admonitions — flat cards with accent edge
    =================================== */
 .md-typeset .admonition,
 .md-typeset details {
-  background-color: var(--gb-table-row);
-  border-left: 4px solid var(--gb-blockquote-border);
-  border-radius: 0;
+  border: 1px solid var(--gb-card-border);
+  border-left: 3px solid var(--gb-accent);
+  border-radius: 8px;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 14.5px;
+  background-color: transparent;
+  /* Material 子元素带 -0.6rem 负边距，必须保留其默认水平 padding，否则文字会凸出边框 */
+  padding: 0 0.7rem;
 }
 
 .md-typeset .admonition-title,
 .md-typeset summary {
   background-color: transparent !important;
-  color: var(--gb-content-text);
-  font-weight: 700;
+  color: var(--gb-content-heading);
+  font-weight: 600;
+  border: none;
 }
 
-.md-typeset .admonition.info {
-  border-left-color: var(--gb-link-color);
+.md-typeset .admonition.info,
+.md-typeset .admonition.tip {
+  border-left-color: var(--gb-accent);
 }
 
 .md-typeset .admonition.warning {
-  border-left-color: #e8a735;
+  border-left-color: var(--gb-star);
+}
+
+.md-typeset .admonition.warning .admonition-title {
+  color: var(--gb-star);
+}
+
+.md-typeset .admonition.danger,
+.md-typeset .admonition.error {
+  border-left-color: #ef4444;
+}
+
+/* Q&A 折叠卡与主题色统一 */
+.md-typeset details.question,
+.md-typeset .admonition.question {
+  border-color: var(--gb-card-border) !important;
+  border-left: 3px solid var(--gb-accent) !important;
+}
+
+.md-typeset .question > .admonition-title,
+.md-typeset .question > summary {
+  background-color: var(--gb-accent-soft) !important;
+}
+
+.md-typeset .question > .admonition-title:before,
+.md-typeset .question > summary:before {
+  background-color: var(--gb-accent) !important;
+}
+
+.md-typeset .question > .admonition-title:after,
+.md-typeset .question > summary:after {
+  color: var(--gb-accent) !important;
 }
 
 /* ===================================
    Search
    =================================== */
-
-/* Search input in sidebar - no background */
 .md-search__input {
   background-color: transparent !important;
   border: none;
@@ -527,7 +607,7 @@ body {
 
 .md-search__input::placeholder {
   color: var(--gb-content-text) !important;
-  opacity: 0.4;
+  opacity: 0.45;
   text-shadow: none !important;
 }
 
@@ -535,67 +615,36 @@ body {
   color: var(--gb-sidebar-text) !important;
 }
 
-/* Search overlay backdrop */
 .md-search__overlay {
   background-color: var(--gb-content-bg) !important;
   opacity: 0.95 !important;
 }
 
-/* Search panel inner */
-.md-search__inner {
+.md-search__inner,
+.md-search__form,
+.md-search__output,
+.md-search__scrollwrap,
+.md-search-result,
+.md-search-result__list {
   background-color: var(--gb-content-bg) !important;
   color: var(--gb-content-text) !important;
 }
 
-/* Search form */
-.md-search__form {
-  background-color: var(--gb-content-bg) !important;
-  color: var(--gb-content-text) !important;
-}
-
-/* Search output wrapper */
-.md-search__output {
-  background-color: var(--gb-content-bg) !important;
-}
-
-.md-search__scrollwrap {
-  background-color: var(--gb-content-bg) !important;
-}
-
-/* Search result container */
-.md-search-result {
-  background-color: var(--gb-content-bg) !important;
-  color: var(--gb-content-text) !important;
-}
-
-/* "Type to search" / result count meta text */
 .md-search-result__meta {
   color: var(--gb-content-text) !important;
   background-color: transparent !important;
 }
 
-/* Search result list */
-.md-search-result__list {
-  background-color: var(--gb-content-bg) !important;
-}
-
-/* Individual search result item */
-.md-search-result__item {
-  background-color: transparent !important;
-  color: var(--gb-content-text) !important;
-}
-
-/* Search result article (link + teaser) */
+.md-search-result__item,
 .md-search-result__article {
   background-color: transparent !important;
   color: var(--gb-content-text) !important;
 }
 
 .md-search-result__article:hover {
-  background-color: rgba(0, 0, 0, 0.04) !important;
+  background-color: var(--gb-accent-soft) !important;
 }
 
-/* Search result link */
 .md-search-result__link {
   color: var(--gb-link-color) !important;
 }
@@ -604,18 +653,16 @@ body {
   color: var(--gb-sidebar-active) !important;
 }
 
-/* Search result article title */
 .md-search-result__title {
   color: var(--gb-content-text) !important;
+  font-weight: 600;
 }
 
-/* Search result teaser/snippet text */
 .md-search-result__teaser {
   color: var(--gb-content-text) !important;
   opacity: 0.7;
 }
 
-/* Search highlighted terms */
 .md-search-result mark,
 .md-search-result__teaser mark,
 .md-search-result__title mark,
@@ -625,12 +672,10 @@ mark.md-search-result__highlight {
   font-weight: 700;
 }
 
-/* "No results found" text */
 .md-search-result__message {
   color: var(--gb-content-text) !important;
 }
 
-/* Search options nav (clear button etc) */
 .md-search__options {
   color: var(--gb-content-text) !important;
 }
@@ -639,21 +684,20 @@ mark.md-search-result__highlight {
   color: var(--gb-content-text) !important;
 }
 
-/* Search suggest */
 .md-search__suggest {
   color: var(--gb-content-text) !important;
   opacity: 0.5;
 }
 
 /* ===================================
-   TOC Sidebar (Right) - hidden
+   TOC Sidebar (Right) — hidden
    =================================== */
 .md-sidebar--secondary {
   display: none !important;
 }
 
 /* ===================================
-   Footer - completely hidden
+   Footer — hidden
    =================================== */
 .md-footer,
 .md-footer-meta,
@@ -673,10 +717,11 @@ mark.md-search-result__highlight {
 /* ICP 备案号栏 */
 .gb-icp-bar {
   text-align: center;
-  padding: 8px 16px;
+  padding: 10px 16px;
   font-size: 12px;
   color: var(--gb-text-muted);
-  background: var(--gb-sidebar-bg);
+  background: var(--gb-content-bg);
+  border-top: 1px solid var(--gb-card-border);
 }
 .gb-icp-bar a {
   color: var(--gb-text-muted);
@@ -689,18 +734,21 @@ mark.md-search-result__highlight {
 
 /* Update timestamp */
 .gb-update-time {
-  color: #8e908c;
-  font-size: 14px;
-  margin-bottom: 20px;
+  color: var(--gb-text-muted);
+  font-size: 13px;
+  margin-bottom: 22px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--gb-card-border);
 }
 
 /* Notice box */
 .gb-notice {
-  background-color: var(--gb-table-row);
-  border-left: 4px solid var(--gb-blockquote-border);
-  padding: 12px 16px;
+  background-color: transparent;
+  border: 1px solid var(--gb-card-border);
+  border-left: 3px solid var(--gb-accent);
+  padding: 10px 14px;
   margin: 16px 0;
-  border-radius: 0;
+  border-radius: 0 8px 8px 0;
 }
 
 .gb-notice p {
@@ -710,37 +758,41 @@ mark.md-search-result__highlight {
 /* Review card */
 .review-card {
   border: 1px solid var(--gb-card-border);
-  border-radius: 6px;
-  padding: 20px;
-  margin: 20px 0;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 18px 0;
   background-color: var(--gb-card-bg);
-  box-shadow: 0 1px 3px var(--gb-card-shadow);
 }
 
 .review-meta-table {
   width: auto;
   border: none;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   font-size: 13px;
+  box-shadow: none !important;
 }
 
 .review-meta-table td {
   border: none;
-  padding: 2px 12px 2px 0;
+  padding: 3px 12px 3px 0;
   background: transparent !important;
 }
 
+.review-meta-table tr:hover {
+  background: transparent;
+}
+
 .review-meta-table .meta-label {
-  color: #8e908c;
+  color: var(--gb-text-muted);
   font-size: 12px;
   white-space: nowrap;
 }
 
 .review-content {
   margin-top: 4px;
-  padding-top: 12px;
+  padding-top: 14px;
   border-top: 1px solid var(--gb-card-border);
-  line-height: 1.8;
+  line-height: 1.85;
   color: var(--gb-content-text);
 }
 
@@ -758,10 +810,10 @@ mark.md-search-result__highlight {
 #sd-tooltip-box {
   display: none;
   position: fixed;
-  background: var(--gb-content-bg);
+  background: var(--gb-card-bg);
   border: 1px solid var(--gb-card-border);
-  border-radius: 6px;
-  box-shadow: 0 4px 12px var(--gb-card-shadow);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px var(--gb-card-shadow);
   padding: 12px 16px;
   font-size: 13px;
   line-height: 1.8;
@@ -780,6 +832,7 @@ mark.md-search-result__highlight {
 .star-rating,
 .score-stars {
   color: var(--gb-star);
+  letter-spacing: 1px;
 }
 
 .score-display {
@@ -791,13 +844,81 @@ mark.md-search-result__highlight {
 }
 
 /* ===================================
+   Homepage intro — 简约风
+   =================================== */
+.gb-hero {
+  margin-bottom: 30px;
+  padding: 8px 0 24px;
+  border-bottom: 1px solid var(--gb-card-border);
+}
+
+.gb-hero h1 {
+  margin-top: 0.4em;
+  margin-bottom: 0.35em;
+}
+
+.gb-hero .gb-hero-sub {
+  color: var(--gb-text-muted);
+  font-size: 15px;
+  max-width: 620px;
+  margin: -0.4em 0 18px;
+}
+
+.gb-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.md-typeset .gb-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13.5px;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease, border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.md-typeset .gb-btn--primary {
+  color: #ffffff !important;
+  background: var(--gb-accent);
+}
+
+.md-typeset .gb-btn--primary:hover {
+  background: var(--gb-btn-hover);
+  color: #ffffff !important;
+}
+
+.md-typeset .gb-btn--ghost {
+  color: var(--gb-content-text) !important;
+  background: transparent;
+  border: 1px solid var(--gb-card-border);
+}
+
+.md-typeset .gb-btn--ghost:hover {
+  border-color: var(--gb-accent);
+  color: var(--gb-accent) !important;
+}
+
+/* ===================================
    Back-to-top button
    =================================== */
 .md-top {
-  background-color: var(--gb-content-bg) !important;
+  background-color: var(--gb-card-bg) !important;
   color: var(--gb-content-text) !important;
   border: 1px solid var(--gb-card-border);
-  box-shadow: 0 2px 4px var(--gb-card-shadow);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px var(--gb-card-shadow);
+  backdrop-filter: blur(10px);
+}
+
+.md-top:hover {
+  color: var(--gb-accent) !important;
+  border-color: var(--gb-accent);
 }
 
 /* ===================================
@@ -811,15 +932,36 @@ mark.md-search-result__highlight {
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 14px !important;
+    font-size: 14.5px !important;
   }
 
   .md-typeset h1 { font-size: 1.6em; }
-  .md-typeset h2 { font-size: 1.4em; }
-  .md-typeset h3 { font-size: 1.2em; }
+  .md-typeset h2 { font-size: 1.35em; }
+  .md-typeset h3 { font-size: 1.15em; }
 
   .md-content__inner {
-    padding: 15px 12px 30px;
+    padding: 15px 14px 30px;
+  }
+
+  .gb-hero {
+    padding: 4px 0 18px;
+  }
+
+  .gb-hero h1 {
+    font-size: 1.8em;
+  }
+
+  .review-card {
+    padding: 16px;
+  }
+
+  .md-typeset table {
+    font-size: 13px;
+  }
+
+  .md-typeset table th,
+  .md-typeset table td {
+    padding: 8px 10px;
   }
 }
 
@@ -831,12 +973,25 @@ html {
 }
 
 .md-content__inner {
-  animation: gbFadeIn 0.15s ease-in;
+  animation: gbFadeIn 0.2s ease-in;
 }
 
 @keyframes gbFadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .md-content__inner,
+  .review-card,
+  .gb-feature-card,
+  .gb-btn {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 /* ===================================

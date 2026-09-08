@@ -17,7 +17,7 @@
 
 ### 方式一：问卷提交
 
-填写 [评价问卷](https://wj.qq.com/s2/8669157/afbb/) 即可提交课程评价。
+填写 [评价问卷（Google Form）](https://forms.gle/y9jENzbjXxke6Dj47) 或 [评价问卷（腾讯问卷）](https://wj.qq.com/s2/8669157/afbb/) 即可提交课程评价。
 
 ### 方式二：GitHub Pull Request
 
